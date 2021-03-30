@@ -1,0 +1,55 @@
+{{ define "main" }}
+  {{ `<!-- hugo: main defined in layouts/show/single.html -->` | safeHTML }}
+
+    <div class="wieting_banner">
+      <div class="site-name">The Wieting Theatre</div>
+      {{ partial "bulleted-info.html" }}
+    </div>  
+
+    <div class="show-title">
+      <h1>{{ .Title }}</h1>
+    </div>
+      
+    <div class="content">
+      <div class="show-container">
+        <div class="show-left-block">
+          <div class="field field--name-field-one-sheet field--type-image">
+            <img src="{{ .Params.oneSheet }}" width="320" height="414" alt="" typeof="foaf:Image" class="img-responsive" />
+          </div>
+        </div>  
+        <div class="show-right-block">
+          <hr/>
+          <div class="remaining_details">
+            <div class="field field--name-field-performance-times field--type-datetime">
+              <ul class="show-times">
+                {{ range .Params.performanceList.performance }}
+                  <li class="field--item">
+                    {{ dateFormat "Monday - Jan 2 @ 15:04" .date }}
+                    {{ if .format }} 
+                      <b> [{{ .format }}]</b>
+                    {{ end }}
+                    {{ if .note }}   
+                      <br/><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ .note }}</i>
+                    {{ end }}  
+                  </li>
+                {{ end }}    
+              </ul>  
+              <hr/>
+              <div class="synopsis">{{ .Content }}</div>
+              <hr/>
+              <div class="show-rating">
+                <span class="field--label">MPAA Rating: </span>
+                <span class="field--item-bold">{{ .Params.mpaaRating }}</span>
+              </div>
+              <div class="running-time">
+                <span class="field--label">Running Time: </span>
+                <span content="10" class="field--item-bold">{{ .Params.runningTime }} minutes</span>
+              </div>
+            <br/>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+  {{ `<!-- /hugo: main defined in layouts/show/single.html -->` | safeHTML }}
+{{ end }}

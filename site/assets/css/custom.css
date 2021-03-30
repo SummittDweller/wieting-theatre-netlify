@@ -1,0 +1,195 @@
+
+/* Change div.debug display: to "none" to hide debug info, or "block" to display it */
+
+div.debug {
+  display: block;
+  border: 2px double red;
+  padding: .5em 1em;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+tr {
+  line-height: 0.75em;
+}
+
+div.centered {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+
+div.from-dbox {
+  display: block
+  background: whitesmoke;
+  border: 5px solid green;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+div.from-dbox p img {
+  max-width: 90%;
+}
+
+div.timeline-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  border: 5px solid #1DA1F2;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em;
+  margin-top: 5px;
+  margin-bottom: 2em;
+}
+
+/* Wieting changes and additions */
+
+.h-100 {
+  width: 100%;
+  background: linear-gradient(#fff 0%, #b8c09f 100%) fixed;
+}
+
+div.view-content {
+  width: 86%;
+  margin-left: 7%;
+  background: url("/images/WietingBrickFront.png");
+  padding: 1em 0;
+}
+
+div.views-row.one-sheet-element {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+div.views-field {
+  text-align: center;
+  background: antiquewhite;
+  color: #000000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 6px 3px;
+  margin-bottom: 6px;
+}
+
+.jumbotron {
+  padding: 0rem 1rem;
+  margin-bottom: 0;
+}
+
+.social-share .share-icons li {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* scroll-left feature per https://dev.to/techthor/pure-css-continuous-horizontal-text-scroll-42a3 */
+
+div.scroll-left {
+  height: 24px;
+  font-size: 18px;
+  display: inline-block;
+  white-space: nowrap;
+  animation: floatText 25s infinite linear;
+  padding-left: 125%;  /* Initial offset, which places the text off-screen */
+  color: red;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes floatText {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+div.marquee-foundation {
+  display: block;
+  width: 100%;
+  background: url("/images/WietingSteps.png");
+  background-size: auto;
+  color: #000000;
+  font-weight: 600;
+  font-size: x-large;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 18px;
+  text-align: center;
+}
+
+div.wieting_banner {
+  display: block;
+  width: 100%;
+  background: #b8bf9e;
+  color: black;
+  padding: 1px 10px;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+  margin-bottom: 10px;
+}
+
+div.site-name {
+  font-size: 2em;
+}
+
+div.site-info {
+  margin-left: 2em;
+  font-weight: bold;
+}
+
+.site-info ul { display:inline-block; padding:0; text-align:center }
+.site-info li { display:inline }
+.site-info li a { white-space:nowrap }
+.site-info li:after { content:" "; letter-spacing:1em; background:center center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=); }
+
+img.oneSheet {
+  width: 270px;
+  height: 400px;
+}
+
+ul.show-times {
+  list-style-position: inside;  
+}  
+
+div.synopsis {
+  font-size: 2rem;
+}
+
+.field--item-bold {
+  font-weight: bold;
+}
+.show-container {
+  margin: auto;
+  padding: 10px;
+}
+
+.show-left-block {
+  width: 15%;
+  float: left;
+  width: auto;
+  vertical-align: top;
+  margin-right: 10px;
+  min-width: 185px;
+}
+
+.show-right-block {
+  margin-left: 15%;
+  height: 200px;
+  vertical-align: top;
+}
+
+div.field--name-field-one-sheet img {
+  display: block;
+  border: 2px solid black;
+  border-radius: 3px;
+}
