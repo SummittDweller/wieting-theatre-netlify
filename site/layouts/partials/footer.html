@@ -1,8 +1,9 @@
 {{ if ne .Site.Params.hideFooter true }}
 <footer id="footer" class="mt-auto text-center text-muted">
-  <div class="container">
-    Updated: {{ now.Local.Format "Jan 2, 2006 at 3:04pm MST" | markdownify }}<br/>
-    {{ .Site.Params.footerText | markdownify }}
+  <div data-netlify-identity-button ></div>
+  <div class="footer-container">
+    <div>Updated: {{ now.Local.Format "Jan 2, 2006 at 3:04pm MST" | markdownify }}</div>
+    <div>{{ .Site.Params.footerText | markdownify }}</div>
   </div>
 </footer>
 
