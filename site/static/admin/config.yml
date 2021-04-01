@@ -1,13 +1,17 @@
 backend:
   name: git-gateway
-  branch: main
+
+# backend:
+#   name: github
+#   repo: SummittDweller/wieting-theatre-netlify
+#   branch: main
 
 media_folder: 'site/static/img'
 public_folder: 'img' 
 
 collections:
   - name: 'show'
-    label: 'Show'
+    label: 'Shows'
     folder: 'site/content/show'
     create: true
     slug: '{{slug}}'
@@ -133,42 +137,167 @@ collections:
         widget: boolean
         default: false
 
-  - name: "pages"
-    label: "Pages"
-    files:
+  - name: pages
+    label: Main Pages
+    folder: site/content
+    create: true
+    hint: For editing pages that appear in the site's top-level menu.
 
-      - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+      - label: Draft?
+        name: draft 
+        widget: boolean
+        default: false
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: date 
+      - label: SocialShare?
+        name: socialshare
+        widget: hidden
+        default: false            
+      - label: Menu Structure
+        name: menu
+        widget: object
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
+          - label: Main Menu
+            name: main
+            widget: object
             fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+              - label: Identifier
+                name: identifier
+              - label: Parent Menu Identifier
+                name: parent
+                hint: Leave this blank for TOP LEVEL menu pages.
+              - label: Weight
+                name: weight
+                widget: number
 
-      - file: "site/content/history/_index.md"
-        label: "History"
-        name: "history"
+  - name: about-pages
+    label: About Pages
+    folder: site/content/about
+    create: true
+    hint: For editing pages that appear under the 'About' page in the menu.
+
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+      - label: Draft?
+        name: draft 
+        widget: boolean
+        default: false
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: date 
+      - label: Menu Structure
+        name: menu
+        widget: object
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
+          - label: Main Menu
+            name: main
+            widget: object
             fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
+              - label: Identifier
+                name: identifier
+              - label: Parent Menu Identifier
+                name: parent
+                default: about
+                hint: Should be 'about' at this level.
+              - label: Weight
+                name: weight
+                widget: number
+
+  - name: history-pages
+    label: History Pages
+    folder: site/content/history
+    create: true
+    hint: For editing pages that appear under the 'History' page in the menu.
+
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+      - label: Draft?
+        name: draft 
+        widget: boolean
+        default: false
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: date 
+      - label: Menu Structure
+        name: menu
+        widget: object
+        fields:
+          - label: Main Menu
+            name: main
+            widget: object
+            fields:
+              - label: Identifier
+                name: identifier
+              - label: Parent Menu Identifier
+                name: parent
+                default: history
+                hint: Should be 'history' at this level.
+              - label: Weight
+                name: weight
+                widget: number
+
+
+    # files:
+    # 
+    #   - file: "site/content/contact/_index.md"
+    #     label: "Contact Page"
+    #     name: "contact"
+    #     fields:
+    #       - {label: Title, name: title, widget: string}
+    #       - {label: Logo, name: logo, widget: image}
+    #       - {label: Body, name: body, widget: markdown}
+    #       - label: Contact Entries
+    #         name: contact_entries
+    #         widget: list
+    #         fields:
+    #           - label: Heading
+    #             name: heading
+    #             widget: string
+    #           - label: Text
+    #             name: text
+    #             widget: text
+    # 
+    #   - file: "site/content/history/_index.md"
+    #     label: "History"
+    #     name: "history"
+    #     fields:
+    #       - {label: Title, name: title, widget: string}
+    #       - {label: Logo, name: logo, widget: image}
+    #       - {label: Body, name: body, widget: markdown}
+    #       - label: Contact Entries
+    #         name: contact_entries
+    #         widget: list
+    #         fields:
+    #           - label: Heading
+    #             name: heading
+    #             widget: string
+    #           - label: Text
+    #             name: text
+    #             widget: text
