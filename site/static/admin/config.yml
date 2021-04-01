@@ -60,7 +60,7 @@ collections:
         name: oneSheet
         widget: image
         ui: true
-        default: "no-image-available.png"
+        default: "_default_no-image-available.png"
         media_library:
           config:
             multiple: false
