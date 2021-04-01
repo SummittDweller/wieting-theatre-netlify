@@ -12,7 +12,12 @@ menu:
 ---
 
 ## Movies
-Tickets for all nights, all ages, are now $3 each for 2D and $4 each for movies shown in RealD 3D.
+
+We strive to keep our ticket pricing simple and affordable.  Tickets for **all nights**, **all ages**, are now
+
+  - **$3** each for _2D_, and 
+  - **$4** each for movies shown in _RealD 3D_.
 
 ## Live Events
-Admission for live events varies.  Visit the calendar and open the event for ticket prices and details.
+
+Admission for live events varies. Visit our home page marquee and open an individual show or event for ticket prices and details.
