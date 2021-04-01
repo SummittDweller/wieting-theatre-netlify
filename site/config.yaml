@@ -4,6 +4,7 @@ title: The Wieting Theatre
 theme: vanilla-bootstrap-hugo-theme
 socialshare: true
 disableKinds: [ "section", "RSS" ]
+
 # googleAnalytics: UA-187260584-2
 # googleAnalytics: UA-146526628-3
 # GA4: G-ZSJCQ9CDKM
@@ -17,19 +18,28 @@ permalinks:
 # See https://feathericons.com/
 # The value of pre is the icon name
 menu:
-  nav:
-  - name: Home
+  main:
+  - identifier: home
+    name: Home
     pre: home
     url: /
     weight: 1
-  - name: About
-    pre: smile
-    url: /about
-    weight: 14
-  - name: Admissions & Concessions
-    pre: clipboard
-    url: /admissionconcessions
-    weight: 12
+  # - identifier: about
+  #   name: About
+  #   pre: smile
+  #   url: /about/
+  #   weight: 20
+  # - identifier: history
+  #   name: History
+  #   parent: about
+  #   pre: smile
+  #   url: /history/
+  #   weight: 21
+  # - identifier: admissions-concessions 
+  #   name: Admissions & Concessions
+  #   pre: clipboard
+  #   url: /admissionconcessions/
+  #   weight: 10
   # - name: Tags
   #   pre: tag
   #   url: /tags

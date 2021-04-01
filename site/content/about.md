@@ -1,3 +1,16 @@
+---
+title: About
+draft: false
+author: Mackenzie McFate
+date: 2021-03-31T07:50:29-05:00
+socialshare: false
+menu:
+  main:
+    identifier: about
+    pre: info
+    weight: 50
+---
+
 The Wieting Theatre Guild is a dedicated group of members who work together in an effort to support and maintain the Wieting Theatre. Their responsibilities include: monitoring movies, general building maintenance, scheduling and booking movies, and scheduling volunteer workers.
 
 Presently the Guild members are:
