@@ -8,7 +8,7 @@ menu:
   main:
     identifier: history
     pre: archive
-    weight: 1
+    weight: 100
 ---
 
 What follows is a very brief telling of the long history of Toledo's Wieting Theatre presented in 8 parts. It's worth noting up front that the Wieting opened in 1912 and celebrated it's first centennial in 2012. With considerable luck and the hard work of the Wieting Theatre Guild, Trustees and many volunteers, the Wieting marked this grand milestone with completion of extensive renovations of the theatre.
