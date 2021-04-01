@@ -177,10 +177,14 @@ collections:
                 name: identifier
               - label: Parent Menu Identifier
                 name: parent
+                default: " "
+                required: false
+                widget: hidden
                 hint: Leave this blank for TOP LEVEL menu pages.
               - label: Weight
                 name: weight
                 widget: number
+                
 
   - name: about-pages
     label: About Pages
@@ -217,6 +221,8 @@ collections:
                 name: identifier
               - label: Parent Menu Identifier
                 name: parent
+                required: true
+                widget: hidden
                 default: about
                 hint: Should be 'about' at this level.
               - label: Weight
@@ -258,6 +264,8 @@ collections:
                 name: identifier
               - label: Parent Menu Identifier
                 name: parent
+                required: true
+                widget: hidden
                 default: history
                 hint: Should be 'history' at this level.
               - label: Weight
