@@ -234,7 +234,6 @@ collections:
     folder: site/content/history
     create: true
     hint: For editing pages that appear under the 'History' page in the menu.
-
     fields:
       - label: Title
         name: title

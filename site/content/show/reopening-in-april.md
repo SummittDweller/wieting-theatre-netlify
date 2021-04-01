@@ -7,7 +7,7 @@ draft: false
 
 dateRange: "Mid-April"
 shortTitle: "Reopening!"
-oneSheet: /img/closed-until-further-notice.jpg
+oneSheet: /img/_keep_closed-until-further-notice.jpg
 showType: Announcement
 showFormat: 
 runningTime: 0
