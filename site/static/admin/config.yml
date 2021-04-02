@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
   
-# To make the local git repo mode work you must run 'npx netlify-cms-proxy-server &' from the local Hugo /site directory.
+# To make the local git repo mode work you must run 'npx netlify-cms-proxy-server &' from the project root AND remove the 'site/' prefix from each of the "folder" values below.
 local_backend: true
 
 # backend:  
