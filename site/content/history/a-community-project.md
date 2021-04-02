@@ -11,8 +11,6 @@ menu:
     weight: 70
 ---
 
-
-
 It was early spring, 1960, when a half-dozen women drifted into the school hot lunch room to talk over cookies and coffee following a meeting of the P.T.A. They deplored the lack of local movies, and they regretted the closing of the Wieting building, which would lose its trust fund income in the fall of 1969, unless it reopened.
 
 As a result of that impromptu meeting the first "Wieting meeting" was held April 7, 1960, at the Community Building with 40 citizens in attendance. They organized the Toledo Community Theatre Guild, wrote a constitution, attracted others to the organization; and on May 18, 1960, 60 volunteers gathered in the Wieting lobby. They found the theatre musty, cobwebby, full of dreams and promise.
