@@ -8,10 +8,13 @@
     {{ partial "menu.html" . }}
     <!-- {{ partial "nav.html" . }} -->
     <div class="container">
+      {{ `<!-- hugo: main block in layouts/partials/baseof.html -->` | safeHTML }}
       <main id="main">
         {{ block "main" . }}{{ end }}
       </main>
+      {{ `<!-- hugo: main block in layouts/partials/baseof.html -->` | safeHTML }}
     </div>
+    {{ partial "prev-next-section.html" . }}
     {{ partial "footer.html" . }}
     {{ partial "script.html" . }}
     {{ partial "katex.html" . }}

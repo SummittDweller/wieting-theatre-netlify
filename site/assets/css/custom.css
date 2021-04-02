@@ -439,3 +439,30 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 li.menu__dropdown {
   z-index: 100;
 }
+
+div.prev-next {
+  display: block;
+  padding: 10px 3rem;
+}
+
+.prev-item {
+  display: block;
+  float: left;
+  padding: 10px 5px;
+}
+
+.next-item {
+  display: block;
+  float: right;
+  padding: 10px 5px;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+}
+
+a:hover {
+  color: green;
+  font-weight: bold;
+}

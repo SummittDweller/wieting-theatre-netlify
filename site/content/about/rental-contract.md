@@ -4,6 +4,7 @@ draft: false
 author: Mackenzie McFate
 date: 2021-04-01T08:33:21-05:00
 socialshare: false
+weight: 260
 menu:
   main:
     identifier: rental-contract

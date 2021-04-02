@@ -168,6 +168,9 @@ collections:
         name: socialshare
         widget: hidden
         default: false            
+      - label: Weight
+        name: weight
+        widget: number            
       - label: Menu Structure
         name: menu
         widget: object
