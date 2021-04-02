@@ -12,7 +12,7 @@ menu:
 ---
 In the summer of 1960, the Wieting was featured in the Wall Street Journal as a movie house which had made a successful comeback. Similar articles have appeared in several local papers. It cannot be praised too highly for it has come back into its own by the effort of many citizens working together for no profit except the important intangible benefits. Mrs. Wieting would be proud of this activity.
 
-![](img/_history_Wieting-Th-Exterior-bw.jpg)
+![Exterior](/img/_history_Wieting-Th-Exterior-bw.jpg)
 
 Movies are shown every weekend, and the facilities are host to a variety of live stage entertainment... when it comes along. The Wieting is cleaner than the average theatre, in building and film. It operates in the black, and theatre improvements are constant and ongoing.
 
@@ -22,4 +22,4 @@ The theatre is one of four structures in Toledo (including the Tama County Court
 
 As the plaque which hangs above the front door proclaims: "This playhouse was built in the year A.D. 1912 by Ella W. Wieting as a memorial to her husband, Philip G. Wieting, and dedicated to our many friends in the town where we so long abode.”
 
-![](img/_history_Dedication-Plaque-(small).jpg)
+![Dedication Plaque](/img/_history_Dedication-Plaque-small.jpg)
