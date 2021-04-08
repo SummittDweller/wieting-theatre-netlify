@@ -445,3 +445,21 @@ a:hover {
   color: green;
   font-weight: bold;
 }
+
+/* centering main menu */
+
+nav.menu {
+  display: flex; 
+  justify-content: center;
+}
+
+ul.menu__list {
+  text-align: center;
+  padding: 0;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+li.menu__item {
+  display: inline-block;
+}

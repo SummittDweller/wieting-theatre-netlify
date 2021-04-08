@@ -4,12 +4,12 @@ draft: false
 author: Mackenzie McFate
 date: 2021-03-31T07:50:29-05:00
 socialshare: false
-weight: 200
+weight: 100
 menu:
   main:
     identifier: about
     pre: info
-    weight: 50
+    weight: 100
 ---
 
 The Wieting Theatre is a community-owned non-profit organization supported by more than 100 dedicated volunteers. There is no paid staff, this is a labor of love.  
