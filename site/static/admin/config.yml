@@ -53,6 +53,7 @@ collections:
         name: dateRange
         widget: string
         required: false
+        hint: "Enter a brief date range as a string. Example: 'Jan 30 - Feb 2'."
 
       - label: Short Title
         name: shortTitle
@@ -78,7 +79,7 @@ collections:
       - label: Running Time 
         name: runningTime
         widget: number
-        hint: "Enter running time in minutes."
+        hint: "Enter running time in minutes. Must be an integer."
         default: 120
 
       - label: "MPAA Rating"   
@@ -102,12 +103,13 @@ collections:
         widget: object
         
         fields:
+      
           - label: Performance 
             name: performance 
             widget: list
 
             fields:
-              - { label: When, name: date, widget: datetime }
+              - { label: When, name: date, widget: datetime, picker_utc: false }
               - { label: Format, name: format, widget: select, options: [ "2D", "3D", "Not Applicable" ], required: false }
               - { label: Peformance Note, name: note, required: false }
 
@@ -118,6 +120,7 @@ collections:
         summary: "{{fields.studio}} - ${{fields.studioFee}} - {{fields.studioPercentage}}%"
 
         fields:
+      
           - label: Studio 
             name: studio 
             widget: string
@@ -149,29 +152,37 @@ collections:
     hint: For editing pages that appear in the site's top-level menu.
 
     fields:
+      
       - label: Title
         name: title
         widget: string
+        
       - label: Body
         name: body
         widget: markdown
+        
       - label: Draft?
         name: draft 
         widget: boolean
         default: false
+        
       - label: Author
         name: author
         widget: string
+        
       - label: Date
         name: date
         widget: date 
+        
       - label: SocialShare?
         name: socialshare
         widget: hidden
         default: false            
+        
       - label: Weight
         name: weight
         widget: number            
+        
       - label: Menu Structure
         name: menu
         widget: object
