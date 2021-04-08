@@ -24,7 +24,8 @@
               <ul class="show-times">
                 {{ range .Params.performanceList.performance }}
                   <li class="field--item">
-                    {{ dateFormat "Monday - Jan 2 @ 15:04" .date }}
+                    {{ $dtime := time .date }}
+                    {{ dateFormat "Monday - January 2 @ 3:04 PM" $dtime.Local }}
                     {{ if .format }} 
                       <b> [{{ .format }}]</b>
                     {{ end }}
