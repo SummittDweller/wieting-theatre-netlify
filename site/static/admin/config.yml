@@ -4,10 +4,6 @@ backend:
   
 ## To make local_backend mode work you must run 'npx netlify-cms-proxy-server &' 
 ##   from the project root.
-## Also, use 'git pull_site' to remove the 'site/' prefix from 
-##  all of the 'folder: site/' values below.  Use 'git push_site' to change it back.
-## Note that the 'git pull_site' command/script now launches netlify-cms-proxy-server automatically.
-## See https://levelup.gitconnected.com/automate-repetitive-tasks-with-custom-git-commands-76a4b71d262f
 local_backend: true
 
 # backend:  
@@ -15,13 +11,13 @@ local_backend: true
 #   repo: SummittDweller/wieting-theatre-netlify
 #   branch: main
 
-media_folder: static/img    # site/static/img
+media_folder: site/static/img    
 public_folder: /img
 
 collections:
   - name: show
     label: Shows
-    folder: content/show    # site/content/show
+    folder: site/content/show    # site/content/show
     create: true
     slug: '{{slug}}'
     editor:
@@ -148,7 +144,7 @@ collections:
 
   - name: pages
     label: Main Pages
-    folder: content     # site/content
+    folder: site/content    
     create: true
     hint: For editing pages that appear in the site's top-level menu.
 
@@ -199,7 +195,7 @@ collections:
 
   - name: about-pages
     label: About Pages
-    folder: content/about    # site/content/about
+    folder: site/content/about  
     create: true
     hint: For editing pages that appear under the 'About' page in the menu.
 
@@ -242,7 +238,7 @@ collections:
 
   - name: history-pages
     label: History Pages
-    folder: content/history  # site/content/history
+    folder: site/content/history
     create: true
     hint: For editing pages that appear under the 'History' page in the menu.
     fields:
