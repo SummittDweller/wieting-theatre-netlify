@@ -448,8 +448,19 @@ a:hover {
 
 /* centering main menu */
 
+@media (min-width: 768px) {
+  .big {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .small {
+    display: block;
+  }
+}
+
 nav.menu {
-  display: flex; 
   justify-content: center;
 }
 
