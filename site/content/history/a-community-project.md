@@ -4,12 +4,12 @@ draft: false
 author: Mackenzie McFate
 date: 2021-03-31T07:50:29-05:00
 socialshare: false
-weight: 130
-menu: 
+weight: 330
+menu:
   main:
     identifier: a-community-project
     parent: history
-    weight: 70
+    weight: 670
 ---
 
 It was early spring, 1960, when a half-dozen women drifted into the school hot lunch room to talk over cookies and coffee following a meeting of the P.T.A. They deplored the lack of local movies, and they regretted the closing of the Wieting building, which would lose its trust fund income in the fall of 1969, unless it reopened.

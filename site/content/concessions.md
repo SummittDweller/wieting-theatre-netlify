@@ -4,12 +4,12 @@ draft: false
 author: Mackenzie McFate
 date: 2021-03-31T07:50:29-05:00
 socialshare: false
-weight: 300
+weight: 600
 menu:
   main:
     identifier: concessions
     pre: clipboard
-    weight: 15
+    weight: 400
 ---
 #### Drinks
 

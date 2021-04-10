@@ -4,12 +4,12 @@ draft: false
 author: Mackenzie McFate
 date: 2021-03-31T07:50:29-05:00
 socialshare: false
-weight: 120
+weight: 320
 menu:
   main:
     identifier: a-comeback-story
     parent: history
-    weight: 80
+    weight: 680
 ---
 In the summer of 1960, the Wieting was featured in the Wall Street Journal as a movie house which had made a successful comeback. Similar articles have appeared in several local papers. It cannot be praised too highly for it has come back into its own by the effort of many citizens working together for no profit except the important intangible benefits. Mrs. Wieting would be proud of this activity.
 

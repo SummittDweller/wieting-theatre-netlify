@@ -4,12 +4,12 @@ draft: false
 author: Mackenzie McFate
 date: 2021-03-31T07:50:29-05:00
 socialshare: false
-weight: 160
+weight: 360
 menu:
   main:
     identifier: brilliant-opening-scene
     parent: history
-    weight: 40
+    weight: 640
 ---
 Described as the "latest in opera house construction," the Wieting had been built through the spring and summer of 1912 for a total cost of $20,000. A brick building, 50 feet x 100 feet, it would seat 650 - with all the features of a fine opera house: stage, orchestra pit, main floor, balcony, two boxes, dressing rooms, a ticket office, toilets, and rest rooms.
 

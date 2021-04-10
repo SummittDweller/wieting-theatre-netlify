@@ -4,12 +4,12 @@ draft: false
 author: Mackenzie McFate
 date: 2021-03-31T07:50:29-05:00
 socialshare: false
-weight: 140
-menu: 
+weight: 340
+menu:
   main:
     identifier: the-pace-changes
     parent: history
-    weight: 60
+    weight: 660
 ---
 
 The heyday of the road show and the lecture course passed. In 1920, there were comments in the newspapers that perhaps there would not be a lecture course that year.
