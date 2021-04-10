@@ -16,12 +16,5 @@ What follows is a very brief telling of the long history of Toledo's Wieting The
 
 Also worth noting... the theatre is one of four structures in Toledo (including the Tama County Courthouse, jail and the old Toledo fire station) on the National Register of Historic Places. Did you know there is another Wieting Theatre still in operation? It's true. The community of Worcester, NY, is home to the "other" Wieting Theatre. Check out their threatre and its history at http://www.WietingTheatre.com.
 
-#### Chronology
-  - [The Opening](/history/the-opening/)
-  - [The Wieting's](/history/the-wietings/)
-  - [Other Contributions](/history/other-contributions/)
-  - [Brilliant "Opening Scene"](/history/brilliant-opening-scene/)
-  - [The Master Director](/history/the-master-director/)
-  - [The Pace Changes](/history/the-pace-changes/)
-  - [A Community Project](/history/a-community-project/)
-  - [A Comeback Story](/history/a-comeback-story/)
+#### Stories
+  {{< page-submenu "history" >}}
