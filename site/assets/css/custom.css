@@ -368,8 +368,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   }
 
   .menu__item {
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-  }
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  } 
 }
 
 @media screen and (max-width: 767px) {
