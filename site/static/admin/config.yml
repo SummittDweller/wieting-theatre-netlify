@@ -44,10 +44,16 @@ collections:
       - label: Publish Date
         name: publishDate
         widget: date
+        reqiured: true
+        hint: "Pick the earliest date that this show should appear on the website."
+        format: "YYYY-MM-DD"
 
       - label: Expiration Date
         name: expiryDate
         widget: date
+        reqiured: true
+        hint: "Pick the day AFTER this show's final performance!"
+        format: "YYYY-MM-DD"
 
       - label: Date Range
         name: dateRange

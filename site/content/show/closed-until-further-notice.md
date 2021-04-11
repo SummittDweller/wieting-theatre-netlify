@@ -1,5 +1,5 @@
 ---
-expiryDate: 2021/04/10
+expiryDate: 2021-04-10
 dateRange: Until Further Notice
 runningTime: 120
 mpaaRating: Not Rated
