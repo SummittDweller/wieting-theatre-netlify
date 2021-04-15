@@ -1,6 +1,6 @@
 ---
 date: 2021-05-17T00:00:44.770Z
-title: Sunday, May 9 @ 7:00pm
+title: Sunday, May 16 @ 7:00pm
 showFormat: 2D
 volunteers:
   manager: Kevin Nelson
