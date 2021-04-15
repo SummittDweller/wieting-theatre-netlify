@@ -13,10 +13,10 @@ performanceList:
       format: 3D
       note: This is a special matinee showing.
 studioInfo:
-  studio:
-  studioFee:
-  studioPercentage:
-draft: false
+  ? studio
+  ? studioFee
+  ? studioPercentage
+draft: true
 showFormat: N/A
 title: Closed Until Further Notice
 description: The 'description' holds the production notes.
