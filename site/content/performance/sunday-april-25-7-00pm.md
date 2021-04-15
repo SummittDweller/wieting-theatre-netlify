@@ -1,6 +1,6 @@
 ---
 date: 2021-05-24T00:00:49.909Z
-title: Sunday, April 25 @ 7:00pm
+title: Sunday, May 23 @ 7:00pm
 showFormat: 2D
 volunteers:
   manager: Barb Jordan
