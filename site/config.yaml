@@ -5,9 +5,7 @@ theme: vanilla-bootstrap-hugo-theme
 socialshare: true
 disableKinds: [ "section", "RSS" ]
 
-# googleAnalytics: UA-187260584-2
-# googleAnalytics: UA-146526628-3
-# GA4: G-ZSJCQ9CDKM
+googleAnalytics: UA-194668720-1 
 
 taxonomies:
   tag: tags
