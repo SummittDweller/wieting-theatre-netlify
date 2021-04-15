@@ -158,6 +158,15 @@ collections:
     slug: '{{slug}}'
     editor:
       preview: true
+    
+    sort: "date:desc"
+    sortable_fields: [ 'date', 'showFormat' ]
+    
+    view_groups:
+      - label: By Manager:
+        field: manager
+      - label: By Format:
+        field: showFormat
       
     fields:
 
