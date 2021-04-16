@@ -155,7 +155,7 @@ collections:
     label: Performances
     folder: site/content/performance    # site/content/show
     create: true
-    slug: '{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{hour}}'
     editor:
       preview: true
     
@@ -163,9 +163,9 @@ collections:
     sortable_fields: [ 'date', 'showFormat' ]
     
     view_groups:
-      - label: By Manager:
+      - label: "By Manager:"
         field: manager
-      - label: By Format:
+      - label: "By Format:"
         field: showFormat
       
     fields:
