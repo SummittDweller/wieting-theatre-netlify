@@ -1,15 +1,15 @@
-# backend:
-#   name: git-gateway
-#   branch: main
+backend:
+  name: git-gateway
+  branch: main
   
 ## To make local_backend mode work you must run 'npx netlify-cms-proxy-server &' 
 ##   from the project root.
-# local_backend: true
+local_backend: true
 
-backend:  
-  name: github
-  repo: SummittDweller/wieting-theatre-netlify
-  branch: main
+# backend:  
+#   name: github
+#   repo: SummittDweller/wieting-theatre-netlify
+#   branch: main
 
 media_folder: site/static/img    
 public_folder: /img
