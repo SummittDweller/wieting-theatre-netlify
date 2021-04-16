@@ -1,20 +1,23 @@
-backend:
-  name: git-gateway
-  branch: main
+# backend:
+#   name: git-gateway
+#   branch: main
   
 ## To make local_backend mode work you must run 'npx netlify-cms-proxy-server &' 
 ##   from the project root.
-local_backend: true
+# local_backend: true
 
-# backend:  
-#   name: github
-#   repo: SummittDweller/wieting-theatre-netlify
-#   branch: main
+backend:  
+  name: github
+  repo: SummittDweller/wieting-theatre-netlify
+  branch: main
 
 media_folder: site/static/img    
 public_folder: /img
 
 collections:
+  
+## Shows
+  
   - name: show
     label: Shows
     folder: site/content/show    # site/content/show
@@ -151,9 +154,11 @@ collections:
         widget: boolean
         default: false
 
+## Performances
+
   - name: performance
     label: Performances
-    folder: site/content/performance    # site/content/show
+    folder: site/content/performance    # site/content/performance
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{hour}}'
     editor:
@@ -163,14 +168,17 @@ collections:
     sortable_fields: [ 'date', 'showFormat' ]
     
     view_groups:
-      - label: "By Manager:"
-        field: manager
-      - label: "By Format:"
+      - label: 'Manager'
+        field: volunteers.manager
+      - label: 'Year-Month'
+        field: date
+        pattern: \d{4}-\d{2}
+      - label: 'Format'
         field: showFormat
-      
+
     fields:
 
-      - label: When
+      - label: Date and Time
         name: date
         widget: datetime
         picker_utc: false 
@@ -233,6 +241,8 @@ collections:
         widget: boolean
         default: false
 
+## Main Pages
+
   - name: pages
     label: Main Pages
     folder: site/content    
@@ -291,6 +301,7 @@ collections:
                 name: weight
                 widget: number
                 
+## About Pages
 
   - name: about-pages
     label: About Pages
@@ -334,6 +345,8 @@ collections:
               - label: Weight
                 name: weight
                 widget: number
+
+## History Pages
 
   - name: history-pages
     label: History Pages
