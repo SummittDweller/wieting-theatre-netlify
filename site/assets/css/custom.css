@@ -93,6 +93,10 @@ div.views-field {
   margin-bottom: 6px;
 }
 
+div.views-field-title {
+  margin-bottom: 10px;
+}
+
 .jumbotron {
   padding: 0rem 1rem;
   margin-bottom: 0;
@@ -142,7 +146,7 @@ div.wieting_banner {
   width: 100%;
   background: #b8bf9e;
   color: black;
-  padding: 1px 10px;
+  padding: 1em 2em;
   font-family: Georgia,"Times New Roman",Times,serif;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
