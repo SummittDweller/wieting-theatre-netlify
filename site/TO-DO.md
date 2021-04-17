@@ -5,7 +5,8 @@
   - [ ] Add a Donate Menu Item
   - [ ] Automated Creation of TBD Shows and Performances
   - [ ] Add Google, or Other, Calendar Page(s)
-  - [ ] Add Donor Recognition Text to the Home Page
+  - [x] Add Donor Recognition Text to the Home Page
+  - [ ] Add a Pop-Up Notification "Overlay" to the Home Page
 
 ## Add a `Donate` Menu Item
 
@@ -47,3 +48,7 @@ Michelle tells me that recognition of the following is required in a prominent l
 _Thank you to the: Iowa Department of Cultural Affairs, The Iowa Economic Development Authority, and Arts Midwest for your support which helped us to navigate thru a difficult year!_
  
  I may create a new "appreciation" block above the home page marquee to display this list.  Perhaps we can replace it in a few months, or when any new substantial donors are identifed?
+
+## Add a Pop-Up Notification "Overlay" to the Home Page
+
+_Digital.Grinnell_ now employs a _Drupal_ module that can provide a pop-up (Javascript driven) "overlay" message.  The message can be given and _expiryDate_ when it automatically disappers, and the user can easily click it out of the way once it's been read.  It would be nice to have the same for the Wieting.  Initial message might be that we plan to show "classic" movies on Sunday evening only until COVID-19 numbers decline more significantly.  
