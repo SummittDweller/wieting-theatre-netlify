@@ -5,10 +5,13 @@
   - [ ] Add a Donate Menu Item
   - [ ] Automated Creation of TBD Shows and Performances
   - [ ] Add Google, or Other, Calendar Page(s)
+  - [ ] Add Donor Recognition Text to the Home Page
 
 ## Add a `Donate` Menu Item
 
 In our old site, still running at https://wieting.TamaToledo.org, you will find a `Donate!` menu item.  You can jump directly to it at https://wieting.tamatoledo.org/content/donate-today.  We need the same menu item and page added to the main menu in the new site, complete with a [Donate online - One-time or monthly!](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E28RAEFST2Z7Q) link as seen in the old page.
+
+_Note:_ Rather than adding this to the menu, I've proposed adding a new brightly colored "Donate!" button to the left of our social media (_Facebook_, _Twitter_, and _Email_) buttons near the top of the home page.
 
 ## Automated Creation of TBD Shows and Performances
 
@@ -36,3 +39,11 @@ https://www.raymondcamden.com/2017/02/24/an-example-of-a-static-site-with-a-dyna
 https://discourse.gohugo.io/t/adding-public-google-calendar-into-hugo-site/31258
 
 The Wieting already has a Google Calendar, but there's not a lot of data in it yet, at https://calendar.google.com/calendar/u/0/r.  
+
+## Add Donor Recognition Text to the Home Page
+
+Michelle tells me that recognition of the following is required in a prominent location on the site...
+
+_Thank you to the: Iowa Department of Cultural Affairs, The Iowa Economic Development Authority, and Arts Midwest for your support which helped us to navigate thru a difficult year!_
+ 
+ I may create a new "appreciation" block above the home page marquee to display this list.  Perhaps we can replace it in a few months, or when any new substantial donors are identifed?
