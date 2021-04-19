@@ -26,7 +26,7 @@
     "articleSection" : "about",
     "name" : "Contact Us",
     "headline" : "Contact Us",
-    "description" : "Thank you for your interest in becoming a Wieting Theatre volunteer! We have lots of opportunities for you and we would like to use this online form to capture some sense of your interests and availability so we can make your service at the Wieting stress-free and fun. We do our best to share information with you (including schedule updates) via this web site and through e-mail, so please provide us with an e-mail address if you have one.",
+    "description" : "Interested in becoming a Wieting Theatre volunteer, OR booking an event, OR something else? The Wieting has lots of opportunities for volunteers as EVERYONE at the theatre will atest. We also have ample opportunites to host your event, be it a dance, concert, play, wedding, lecture, meeting\u0026hellip; you name it.\nPlease use this form to let us know how we can help you. Be sure you include an email address or phone number, and someone, a Wieting volunteer, will contact you as soon as we are able.",
     "inLanguage" : "en-US",
     "author" : "",
     "creator" : "",
@@ -37,7 +37,7 @@
     "datePublished": "2021-03-31 07:50:29 -0500 CDT",
     "dateModified" : "2021-03-31 07:50:29 -0500 CDT",
     "url" : "\/about\/contact\/",
-    "wordCount" : "100",
+    "wordCount" : "144",
     "keywords" : [ "Blog" ]
 }
 </script>
@@ -114,29 +114,6 @@ audio {
 
     
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-  <style>
-    div a.netlify-identity-button {
-      width: 6em;
-      display: block;
-      border: 2px solid black;
-      padding: 1px 5px;
-      background: #d3d8c3;
-      margin: auto;
-      text-align: center;
-      border-radius: 4px;
-    }
-
-    a.netlify-identity-button {
-      text-decoration: none !important;
-    }
-
-    div.footer-container {
-      font-size: smaller;
-      color: black;
-      margin: 3px 5px;
-    }
-  </style>  
 
   
 </head>
@@ -147,7 +124,7 @@ audio {
 <!-- hugo: layouts/partials/menu.html -->
 
 
-<nav class="menu">
+<nav class="menu big small">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
 		<span class="menu__btn-title" tabindex="-1"></span>
 	</button>
@@ -181,65 +158,11 @@ audio {
       		</li>
       
       
-      		<li class="menu__item menu__dropdown menu__item--active">
-      			<a class="menu__link" href="/about/">
-      				
-      				<span class="menu__text"><i data-feather="info"></i> About</span>
-      				<label class="drop-icon" for="About">▾</label>
-      				
-      			</a>
-      			<input type="checkbox" id="About">
-      			<ul class="submenu__list">
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/organization/">
-      						
-      						<span class="menu__text">Organization</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/advertise/">
-      						
-      						<span class="menu__text">Advertise with Us!</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/web-specs/">
-      						
-      						<span class="menu__text">Web Material Specs</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/rental-contract/">
-      						
-      						<span class="menu__text">Rental Contract</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item menu__item--active">
-      					<a class="menu__link" href="/about/contact/">
-      						
-      						<span class="menu__text">Contact Us</span>
-      						
-      					</a>
-      					</li>
-      				
-      			</ul>
-      		</li>
-      
-      
       		<li class="menu__item menu__dropdown">
       			<a class="menu__link" href="/history/">
       				
       				<span class="menu__text"><i data-feather="archive"></i> History</span>
-      				<label class="drop-icon" for="History">▾</label>
+              
       				
       			</a>
       			<input type="checkbox" id="History">
@@ -311,6 +234,60 @@ audio {
       				
       			</ul>
       		</li>
+      
+      
+      		<li class="menu__item menu__dropdown menu__item--active">
+      			<a class="menu__link" href="/about/">
+      				
+      				<span class="menu__text"><i data-feather="info"></i> About</span>
+              
+      				
+      			</a>
+      			<input type="checkbox" id="About">
+      			<ul class="submenu__list">
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/organization/">
+      						
+      						<span class="menu__text">Organization</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/advertise/">
+      						
+      						<span class="menu__text">Advertise with Us!</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/web-specs/">
+      						
+      						<span class="menu__text">Web Material Specs</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/rental-contract/">
+      						
+      						<span class="menu__text">Rental Contract</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item menu__item--active">
+      					<a class="menu__link" href="/about/contact/">
+      						
+      						<span class="menu__text">Contact Us</span>
+      						
+      					</a>
+      					</li>
+      				
+      			</ul>
+      		</li>
 	</ul>
 </nav>
 
@@ -324,8 +301,35 @@ audio {
         
   <!-- hugo: main block defined in layouts/about/single.html -->
   <h1>Contact Us</h1>
-  <h3 id="thank-you-for-your-interest-in-becoming-a-wieting-theatre-volunteer">Thank you for your interest in becoming a Wieting Theatre volunteer!</h3>
-<p>We have lots of opportunities for you and we would like to use this online form to capture some sense of your interests and availability so we can make your service at the Wieting stress-free and fun.  We do our best to share information with you (including schedule updates) via this web site and through e-mail, so please provide us with an e-mail address if you have one.  If not, that&rsquo;s OK too.  We have several volunteers without e-mail so we also send out updates in the postal mail.</p>
+  <h2 id="interested-in-becoming-a-wieting-theatre-volunteer-or-booking-an-event-or-something-else">Interested in becoming a Wieting Theatre volunteer, OR booking an event, OR something else?</h2>
+<p>The Wieting has lots of opportunities for volunteers as EVERYONE at the theatre will atest. We also have ample opportunites to host your event, be it a dance, concert, play, wedding, lecture, meeting&hellip; you name it.</p>
+<p>Please use this form to let us know how we can help you.  Be sure you include an email address or phone number, and someone, a Wieting volunteer, will contact you as soon as we are able.  Thank you!</p>
+<!-- If your interest is in becoming a Wieting Volunteer please use this online form to capture some sense of your interests and availability so we can make your service at the Wieting stress-free and fun.  We do our best to share information with you via this web site and through e-mail, so please provide us with an e-mail address if you have one.  If not, that's OK too.  We have several volunteers without e-mail so we also send out updates in the postal mail. -->
+<form name="contact" method="POST" data-netlify="true">
+  <fieldset>
+   <legend>Your Contact Information</legend>
+   <label>Name: <input type="text" name="name" /></label><br/>   
+   <label>Email: <input type="email" name="email" /></label><br/>
+   <label>Phone Number: <input type="phone" name="phone" /></label><br/>
+  </fieldset>
+  <fieldset>
+    <legend>Your Interests</legend>
+    <select name="interests[]" multiple>
+      <option value="volunteer">Becoming a Wieting Volunteer</option>
+      <option value="event">Book an Event at the Wieting</option>
+      <option value="question">Any Other Question or Request</option>
+    </select><br/>
+    Select one or more of the interests listed above.<br/>
+  </fieldset>
+  <fieldset>
+    <legend>Details</legend>
+    <textarea name="details" rows="12" cols="60"></textarea></br>
+    Use the space provided above to let us know how we can help.  Please provide as much detail as possible.
+  </fieldset>
+  <p><br/>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
   <div class="prev-next">
   <div class="prev-item">
@@ -335,8 +339,6 @@ audio {
   </div>
 
   <div class="next-item">
-    
-      <a class="link-reverse" href="/about/?ref=footer">About »</a>
     
   </div>
 </div>  
@@ -358,10 +360,32 @@ audio {
 
     
 <footer id="footer" class="mt-auto text-center text-muted">
-    <div data-netlify-identity-button ></div>
+  <style>
+  div a.netlify-identity-button {
+    width: 6em;
+    display: block;
+    border: 2px solid black;
+    padding: 1px 5px;
+    background: #d3d8c3;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  a.netlify-identity-button {
+    text-decoration: none !important;
+  }
+
+  div.footer-container {
+    font-size: smaller;
+    color: black;
+    margin: 3px 5px;
+  }
+</style>  
+<div data-netlify-identity-button ></div>
 
   <div class="footer-container">
-    <div>Updated: Apr 7, 2021 at 5:52pm CDT</div>
+    <div>Updated: Apr 19, 2021 at 7:44am CDT</div>
     <div>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></div>
   </div>
 </footer>
@@ -409,6 +433,13 @@ audio {
 
 
     
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-194668720-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
   
 
   </body>

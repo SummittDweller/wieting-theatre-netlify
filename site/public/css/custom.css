@@ -15,8 +15,8 @@ tr {
 
 div.centered {
   margin: auto;
-  width: 80%;
-  padding: 2px 10px;
+  width: 98%;
+  padding: 2px 5px;
   text-align: center;
 }
 
@@ -79,6 +79,7 @@ div.views-row.one-sheet-element {
   display: inline-block;
   text-align: center;
   margin-bottom: 1em;
+  margin: 0 0.5em;
 }
 
 div.views-field {
@@ -92,15 +93,19 @@ div.views-field {
   margin-bottom: 6px;
 }
 
+div.views-field-title {
+  margin-bottom: 10px;
+}
+
 .jumbotron {
   padding: 0rem 1rem;
   margin-bottom: 0;
 }
 
-.social-share .share-icons li {
+/* .social-share .share-icons li {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
-}
+} */
 
 /* scroll-left feature per https://dev.to/techthor/pure-css-continuous-horizontal-text-scroll-42a3 */
 
@@ -141,7 +146,7 @@ div.wieting_banner {
   width: 100%;
   background: #b8bf9e;
   color: black;
-  padding: 1px 10px;
+  padding: 1em 2em;
   font-family: Georgia,"Times New Roman",Times,serif;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -174,7 +179,7 @@ ul.show-times {
 }  
 
 div.synopsis {
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .field--item-bold {
@@ -205,27 +210,6 @@ div.field--name-field-one-sheet img {
   border: 2px solid black;
   border-radius: 3px;
 }
-
-/* div a.netlify-identity-button {
-  width: 6em;
-  display: block;
-  border: 2px solid black;
-  padding: 1px 5px;
-  background: #d3d8c3;
-  margin: auto;
-  text-align: center;
-  border-radius: 4px;
-}
-
-a.netlify-identity-button {
-  text-decoration: none !important;
-}
-
-div.footer-container {
-  font-size: smaller;
-  color: black;
-  margin: 3px 5px;
-} */
 
 /* Main menu. Lifted from https://codingnconcepts.com/hugo/nested-menu-hugo/ */
 
@@ -388,8 +372,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   }
 
   .menu__item {
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-  }
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  } 
 }
 
 @media screen and (max-width: 767px) {
@@ -465,4 +449,37 @@ a {
 a:hover {
   color: green;
   font-weight: bold;
+}
+
+div.col-sm-12 {
+  mid-width: 383px;
+}
+
+/* centering main menu */
+
+@media (min-width: 768px) {
+  .big {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .small {
+    display: block;
+  }
+}
+
+nav.menu {
+  justify-content: center;
+}
+
+ul.menu__list {
+  text-align: center;
+  padding: 0;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+li.menu__item {
+  display: inline-block;
 }

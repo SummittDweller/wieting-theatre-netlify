@@ -26,7 +26,7 @@
     "articleSection" : "",
     "name" : "Concessions",
     "headline" : "Concessions",
-    "description" : "Drinks  Pop - $2.50 per bottle (20 oz.). We generally will have Pepsi, Diet Pepsi, Mt. Dew, Root Beer and Sierra Mist. Gatorade - $2.50 per bottle. We generally will have G2 flavors Glacier Freeze (blue), Fruit Punch (red), and Grape. Water - $1 per bottle.  Candy  Regular Size Candy - $1.50 each Large Size Candy - $2.50 each  Popcorn  Regular (32 oz.) Popcorn - $2 each Jumbo (85 oz.",
+    "description" : "Drinks  Pop - $2.50 per bottle (20 oz.). We generally will have Pepsi, Diet Pepsi, Mt. Dew, Root Beer and Sierra Mist. Gatorade - $2.50 per bottle. We generally will have G2 flavors Glacier Freeze (blue), Fruit Punch (red), and Grape. Water - $1.50 per bottle.  Candy  Regular Size Candy - $1.50 each Large Size Candy - $2.50 each  Popcorn  Regular (32 oz.) Popcorn - $2 each Jumbo (85 oz.",
     "inLanguage" : "en-US",
     "author" : "",
     "creator" : "",
@@ -37,7 +37,7 @@
     "datePublished": "2021-03-31 07:50:29 -0500 CDT",
     "dateModified" : "2021-03-31 07:50:29 -0500 CDT",
     "url" : "\/concessions\/",
-    "wordCount" : "94",
+    "wordCount" : "106",
     "keywords" : [ "Blog" ]
 }
 </script>
@@ -114,29 +114,6 @@ audio {
 
     
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-  <style>
-    div a.netlify-identity-button {
-      width: 6em;
-      display: block;
-      border: 2px solid black;
-      padding: 1px 5px;
-      background: #d3d8c3;
-      margin: auto;
-      text-align: center;
-      border-radius: 4px;
-    }
-
-    a.netlify-identity-button {
-      text-decoration: none !important;
-    }
-
-    div.footer-container {
-      font-size: smaller;
-      color: black;
-      margin: 3px 5px;
-    }
-  </style>  
 
   
 </head>
@@ -147,7 +124,7 @@ audio {
 <!-- hugo: layouts/partials/menu.html -->
 
 
-<nav class="menu">
+<nav class="menu big small">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
 		<span class="menu__btn-title" tabindex="-1"></span>
 	</button>
@@ -182,64 +159,10 @@ audio {
       
       
       		<li class="menu__item menu__dropdown">
-      			<a class="menu__link" href="/about/">
-      				
-      				<span class="menu__text"><i data-feather="info"></i> About</span>
-      				<label class="drop-icon" for="About">▾</label>
-      				
-      			</a>
-      			<input type="checkbox" id="About">
-      			<ul class="submenu__list">
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/organization/">
-      						
-      						<span class="menu__text">Organization</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/advertise/">
-      						
-      						<span class="menu__text">Advertise with Us!</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/web-specs/">
-      						
-      						<span class="menu__text">Web Material Specs</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/rental-contract/">
-      						
-      						<span class="menu__text">Rental Contract</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/contact/">
-      						
-      						<span class="menu__text">Contact Us</span>
-      						
-      					</a>
-      					</li>
-      				
-      			</ul>
-      		</li>
-      
-      
-      		<li class="menu__item menu__dropdown">
       			<a class="menu__link" href="/history/">
       				
       				<span class="menu__text"><i data-feather="archive"></i> History</span>
-      				<label class="drop-icon" for="History">▾</label>
+              
       				
       			</a>
       			<input type="checkbox" id="History">
@@ -311,6 +234,60 @@ audio {
       				
       			</ul>
       		</li>
+      
+      
+      		<li class="menu__item menu__dropdown">
+      			<a class="menu__link" href="/about/">
+      				
+      				<span class="menu__text"><i data-feather="info"></i> About</span>
+              
+      				
+      			</a>
+      			<input type="checkbox" id="About">
+      			<ul class="submenu__list">
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/organization/">
+      						
+      						<span class="menu__text">Organization</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/advertise/">
+      						
+      						<span class="menu__text">Advertise with Us!</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/web-specs/">
+      						
+      						<span class="menu__text">Web Material Specs</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/rental-contract/">
+      						
+      						<span class="menu__text">Rental Contract</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/contact/">
+      						
+      						<span class="menu__text">Contact Us</span>
+      						
+      					</a>
+      					</li>
+      				
+      			</ul>
+      		</li>
 	</ul>
 </nav>
 
@@ -329,7 +306,7 @@ audio {
 <ul>
 <li>Pop - $2.50 per bottle (20 oz.).  We generally will have Pepsi, Diet Pepsi, Mt. Dew, Root Beer and Sierra Mist.</li>
 <li>Gatorade - $2.50 per bottle.  We generally will have G2 flavors Glacier Freeze (blue), Fruit Punch (red), and Grape.</li>
-<li>Water - $1 per bottle.</li>
+<li>Water - $1.50 per bottle.</li>
 </ul>
 <h4 id="candy">Candy</h4>
 <ul>
@@ -343,9 +320,10 @@ audio {
 </ul>
 <h4 id="specials">Specials</h4>
 <ul>
-<li>Snack Tray - $5 (Drink + Popcorn + Regular Candy)</li>
+<li>Snack Pack - $5 (Drink + Popcorn + Regular Candy)</li>
 <li>Combo Pack - $8 (2 Drinks + Jumbo Popcorn)</li>
 </ul>
+<h5 id="we-also-have-snack-pack-and-combo-pack-gift-cards-available-too">We also have Snack Pack and Combo Pack gift cards available too!</h5>
 
   
   <!-- /hugo: main block defined in layouts/_default/single.html -->
@@ -362,17 +340,39 @@ audio {
 
   <div class="next-item">
     
-      <a class="link-reverse" href="/about/?ref=footer">About »</a>
+      <a class="link-reverse" href="/history/?ref=footer">History »</a>
     
   </div>
 </div>  
 
     
 <footer id="footer" class="mt-auto text-center text-muted">
-    <div data-netlify-identity-button ></div>
+  <style>
+  div a.netlify-identity-button {
+    width: 6em;
+    display: block;
+    border: 2px solid black;
+    padding: 1px 5px;
+    background: #d3d8c3;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  a.netlify-identity-button {
+    text-decoration: none !important;
+  }
+
+  div.footer-container {
+    font-size: smaller;
+    color: black;
+    margin: 3px 5px;
+  }
+</style>  
+<div data-netlify-identity-button ></div>
 
   <div class="footer-container">
-    <div>Updated: Apr 7, 2021 at 5:52pm CDT</div>
+    <div>Updated: Apr 19, 2021 at 7:44am CDT</div>
     <div>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></div>
   </div>
 </footer>
@@ -420,6 +420,13 @@ audio {
 
 
     
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-194668720-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
   
 
   </body>

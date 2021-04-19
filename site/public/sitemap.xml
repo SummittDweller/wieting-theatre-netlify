@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/history/</loc>
+    <loc>/about/contact/</loc>
+    <lastmod>2021-03-31T07:50:29-05:00</lastmod>
+  </url><url>
+    <loc>/about/rental-contract/</loc>
+    <lastmod>2021-04-01T08:33:21-05:00</lastmod>
+  </url><url>
+    <loc>/about/web-specs/</loc>
+    <lastmod>2021-04-01T08:33:21-05:00</lastmod>
+  </url><url>
+    <loc>/about/advertise/</loc>
+    <lastmod>2021-04-01T08:30:24-05:00</lastmod>
+  </url><url>
+    <loc>/about/organization/</loc>
+    <lastmod>2021-03-31T07:50:29-05:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
     <lastmod>2021-03-31T07:50:29-05:00</lastmod>
   </url><url>
     <loc>/history/a-comeback-story/</loc>
@@ -29,22 +44,7 @@
     <loc>/history/the-opening/</loc>
     <lastmod>2021-03-31T07:50:29-05:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
-    <lastmod>2021-03-31T07:50:29-05:00</lastmod>
-  </url><url>
-    <loc>/about/contact/</loc>
-    <lastmod>2021-03-31T07:50:29-05:00</lastmod>
-  </url><url>
-    <loc>/about/rental-contract/</loc>
-    <lastmod>2021-04-01T08:33:21-05:00</lastmod>
-  </url><url>
-    <loc>/about/web-specs/</loc>
-    <lastmod>2021-04-01T08:33:21-05:00</lastmod>
-  </url><url>
-    <loc>/about/advertise/</loc>
-    <lastmod>2021-04-01T08:30:24-05:00</lastmod>
-  </url><url>
-    <loc>/about/organization/</loc>
+    <loc>/history/</loc>
     <lastmod>2021-03-31T07:50:29-05:00</lastmod>
   </url><url>
     <loc>/concessions/</loc>
@@ -56,10 +56,10 @@
     <loc>/</loc>
     <lastmod>2021-04-01T08:33:21-05:00</lastmod>
   </url><url>
-    <loc>/show/closed-until-further-notice/</loc>
-  </url><url>
-    <loc>/show/reopening-in-april/</loc>
+    <loc>/show/2021-04-25-caddyshack/</loc>
   </url><url>
     <loc>/tags/</loc>
+  </url><url>
+    <loc>/show/2021-05-01-tbd/</loc>
   </url>
 </urlset>

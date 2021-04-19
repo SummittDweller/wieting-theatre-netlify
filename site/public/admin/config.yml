@@ -4,10 +4,6 @@ backend:
   
 ## To make local_backend mode work you must run 'npx netlify-cms-proxy-server &' 
 ##   from the project root.
-## Also, use 'git pull_site' to remove the 'site/' prefix from 
-##  all of the 'folder: site/' values below.  Use 'git push_site' to change it back.
-## Note that the 'git pull_site' command/script now launches netlify-cms-proxy-server automatically.
-## See https://levelup.gitconnected.com/automate-repetitive-tasks-with-custom-git-commands-76a4b71d262f
 local_backend: true
 
 # backend:  
@@ -15,13 +11,16 @@ local_backend: true
 #   repo: SummittDweller/wieting-theatre-netlify
 #   branch: main
 
-media_folder: static/img    # site/static/img
+media_folder: site/static/img    
 public_folder: /img
 
 collections:
+  
+## Shows
+  
   - name: show
     label: Shows
-    folder: content/show    # site/content/show
+    folder: site/content/show    # site/content/show
     create: true
     slug: '{{slug}}'
     editor:
@@ -48,15 +47,22 @@ collections:
       - label: Publish Date
         name: publishDate
         widget: date
+        reqiured: true
+        hint: "Pick the earliest date that this show should appear on the website."
+        format: "YYYY-MM-DD"
 
       - label: Expiration Date
         name: expiryDate
         widget: date
+        reqiured: true
+        hint: "Pick the day AFTER this show's final performance!"
+        format: "YYYY-MM-DD"
 
       - label: Date Range
         name: dateRange
         widget: string
         required: false
+        hint: "Enter a brief date range as a string. Example: 'Jan 30 - Feb 2'."
 
       - label: Short Title
         name: shortTitle
@@ -82,7 +88,7 @@ collections:
       - label: Running Time 
         name: runningTime
         widget: number
-        hint: "Enter running time in minutes."
+        hint: "Enter running time in minutes. Must be an integer."
         default: 120
 
       - label: "MPAA Rating"   
@@ -106,12 +112,13 @@ collections:
         widget: object
         
         fields:
+      
           - label: Performance 
             name: performance 
             widget: list
 
             fields:
-              - { label: When, name: date, widget: datetime }
+              - { label: When, name: date, widget: datetime, picker_utc: false }
               - { label: Format, name: format, widget: select, options: [ "2D", "3D", "Not Applicable" ], required: false }
               - { label: Peformance Note, name: note, required: false }
 
@@ -122,6 +129,7 @@ collections:
         summary: "{{fields.studio}} - ${{fields.studioFee}} - {{fields.studioPercentage}}%"
 
         fields:
+      
           - label: Studio 
             name: studio 
             widget: string
@@ -146,36 +154,133 @@ collections:
         widget: boolean
         default: false
 
+## Performances
+
+  - name: performance
+    label: Performances
+    folder: site/content/performance    # site/content/performance
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{hour}}'
+    editor:
+      preview: true
+    
+    sort: "date:desc"
+    sortable_fields: [ 'date', 'showFormat' ]
+    
+    view_groups:
+      - label: 'Manager'
+        field: volunteers.manager
+      - label: 'Year-Month'
+        field: date
+        pattern: \d{4}-\d{2}
+      - label: 'Format'
+        field: showFormat
+
+    fields:
+
+      - label: Date and Time
+        name: date
+        widget: datetime
+        picker_utc: false 
+
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
+      - label: Format
+        name: showFormat
+        widget: select
+        options: [ "2D", "3D", "Not Applicable" ]
+        required: false 
+
+      - label: "Volunteer Team"
+        name: volunteers
+        widget: object
+
+        fields:
+          
+          - label: Manager
+            name: manager
+            widget: string
+            required: true
+            default: TBD
+        
+          - label: Monitor
+            name: monitor
+            widget: string
+            required: true
+            default: TBD
+        
+          - label: M-Partner
+            name: m-partner
+            widget: string
+            required: true
+            default: TBD
+        
+          - label: Concessions
+            name: concessions
+            widget: string
+            required: true
+            default: TBD
+        
+          - label: C-Partner
+            name: c-partner
+            widget: string
+            required: true
+            default: TBD
+        
+          - label: Tickets
+            name: tickets
+            widget: string
+            required: true
+            default: TBD
+        
+      - label: Draft 
+        name: draft
+        widget: boolean
+        default: false
+
+## Main Pages
+
   - name: pages
     label: Main Pages
-    folder: content     # site/content
+    folder: site/content    
     create: true
     hint: For editing pages that appear in the site's top-level menu.
 
     fields:
+      
       - label: Title
         name: title
         widget: string
+        
       - label: Body
         name: body
         widget: markdown
+        
       - label: Draft?
         name: draft 
         widget: boolean
         default: false
+        
       - label: Author
         name: author
         widget: string
+        
       - label: Date
         name: date
         widget: date 
+        
       - label: SocialShare?
         name: socialshare
         widget: hidden
         default: false            
+        
       - label: Weight
         name: weight
         widget: number            
+        
       - label: Menu Structure
         name: menu
         widget: object
@@ -196,10 +301,11 @@ collections:
                 name: weight
                 widget: number
                 
+## About Pages
 
   - name: about-pages
     label: About Pages
-    folder: content/about    # site/content/about
+    folder: site/content/about  
     create: true
     hint: For editing pages that appear under the 'About' page in the menu.
 
@@ -240,9 +346,11 @@ collections:
                 name: weight
                 widget: number
 
+## History Pages
+
   - name: history-pages
     label: History Pages
-    folder: content/history  # site/content/history
+    folder: site/content/history
     create: true
     hint: For editing pages that appear under the 'History' page in the menu.
     fields:

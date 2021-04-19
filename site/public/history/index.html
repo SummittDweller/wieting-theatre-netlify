@@ -114,29 +114,6 @@ audio {
 
     
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-  <style>
-    div a.netlify-identity-button {
-      width: 6em;
-      display: block;
-      border: 2px solid black;
-      padding: 1px 5px;
-      background: #d3d8c3;
-      margin: auto;
-      text-align: center;
-      border-radius: 4px;
-    }
-
-    a.netlify-identity-button {
-      text-decoration: none !important;
-    }
-
-    div.footer-container {
-      font-size: smaller;
-      color: black;
-      margin: 3px 5px;
-    }
-  </style>  
 
   
 </head>
@@ -147,7 +124,7 @@ audio {
 <!-- hugo: layouts/partials/menu.html -->
 
 
-<nav class="menu">
+<nav class="menu big small">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
 		<span class="menu__btn-title" tabindex="-1"></span>
 	</button>
@@ -181,65 +158,11 @@ audio {
       		</li>
       
       
-      		<li class="menu__item menu__dropdown">
-      			<a class="menu__link" href="/about/">
-      				
-      				<span class="menu__text"><i data-feather="info"></i> About</span>
-      				<label class="drop-icon" for="About">▾</label>
-      				
-      			</a>
-      			<input type="checkbox" id="About">
-      			<ul class="submenu__list">
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/organization/">
-      						
-      						<span class="menu__text">Organization</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/advertise/">
-      						
-      						<span class="menu__text">Advertise with Us!</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/web-specs/">
-      						
-      						<span class="menu__text">Web Material Specs</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/rental-contract/">
-      						
-      						<span class="menu__text">Rental Contract</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/contact/">
-      						
-      						<span class="menu__text">Contact Us</span>
-      						
-      					</a>
-      					</li>
-      				
-      			</ul>
-      		</li>
-      
-      
       		<li class="menu__item menu__dropdown menu__item--active">
       			<a class="menu__link" href="/history/">
       				
       				<span class="menu__text"><i data-feather="archive"></i> History</span>
-      				<label class="drop-icon" for="History">▾</label>
+              
       				
       			</a>
       			<input type="checkbox" id="History">
@@ -311,6 +234,60 @@ audio {
       				
       			</ul>
       		</li>
+      
+      
+      		<li class="menu__item menu__dropdown">
+      			<a class="menu__link" href="/about/">
+      				
+      				<span class="menu__text"><i data-feather="info"></i> About</span>
+              
+      				
+      			</a>
+      			<input type="checkbox" id="About">
+      			<ul class="submenu__list">
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/organization/">
+      						
+      						<span class="menu__text">Organization</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/advertise/">
+      						
+      						<span class="menu__text">Advertise with Us!</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/web-specs/">
+      						
+      						<span class="menu__text">Web Material Specs</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/rental-contract/">
+      						
+      						<span class="menu__text">Rental Contract</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/contact/">
+      						
+      						<span class="menu__text">Contact Us</span>
+      						
+      					</a>
+      					</li>
+      				
+      			</ul>
+      		</li>
 	</ul>
 </nav>
 
@@ -327,17 +304,37 @@ audio {
   <h1>History</h1>
   <p>What follows is a very brief telling of the long history of Toledo&rsquo;s Wieting Theatre presented in 8 parts. It&rsquo;s worth noting up front that the Wieting opened in 1912 and celebrated it&rsquo;s first centennial in 2012. With considerable luck and the hard work of the Wieting Theatre Guild, Trustees and many volunteers, the Wieting marked this grand milestone with completion of extensive renovations of the theatre.</p>
 <p>Also worth noting&hellip; the theatre is one of four structures in Toledo (including the Tama County Courthouse, jail and the old Toledo fire station) on the National Register of Historic Places. Did you know there is another Wieting Theatre still in operation? It&rsquo;s true. The community of Worcester, NY, is home to the &ldquo;other&rdquo; Wieting Theatre. Check out their threatre and its history at <a href="http://www.WietingTheatre.com">http://www.WietingTheatre.com</a>.</p>
-<h4 id="chronolgy">Chronolgy</h4>
-<ul>
-<li><a href="/history/the-opening/">The Opening</a></li>
-<li><a href="/history/the-wietings/">The Wieting&rsquo;s</a></li>
-<li><a href="/history/other-contributions/">Other Contributions</a></li>
-<li><a href="/history/brilliant-opening-scene/">Brilliant &ldquo;Opening Scene&rdquo;</a></li>
-<li><a href="/history/the-master-director/">The Master Director</a></li>
-<li><a href="/history/the-pace-changes/">The Pace Changes</a></li>
-<li><a href="/history/a-community-project/">A Community Project</a></li>
-<li><a href="/history/a-comeback-story/">A Comeback Story</a></li>
-</ul>
+<h4 id="stories">Stories</h4>
+
+
+
+
+
+
+
+  
+<div class="page-submenu">
+  <ul>
+  
+    <li><a href="/history/the-opening/">The Opening</a></li>
+  
+    <li><a href="/history/the-wietings/">The Wieting&#39;s</a></li>
+  
+    <li><a href="/history/other-contributions/">Other Contributions</a></li>
+  
+    <li><a href="/history/brilliant-opening-scene/">Brilliant &#34;Opening Scene&#34;</a></li>
+  
+    <li><a href="/history/the-master-director/">The Master Director</a></li>
+  
+    <li><a href="/history/the-pace-changes/">The Pace Changes</a></li>
+  
+    <li><a href="/history/a-community-project/">A Community Project</a></li>
+  
+    <li><a href="/history/a-comeback-story/">A Comeback Story</a></li>
+  
+  </ul>
+</div>
+
 
   
   <!-- /hugo: main block defined in layouts/_default/single.html -->
@@ -348,21 +345,45 @@ audio {
     <div class="prev-next">
   <div class="prev-item">
     
-      <a class="link-reverse" href="/about/?ref=footer">« About</a>
+      <a class="link-reverse" href="/concessions/?ref=footer">« Concessions</a>
     
   </div>
 
   <div class="next-item">
+    
+      <a class="link-reverse" href="/about/?ref=footer">About »</a>
     
   </div>
 </div>  
 
     
 <footer id="footer" class="mt-auto text-center text-muted">
-    <div data-netlify-identity-button ></div>
+  <style>
+  div a.netlify-identity-button {
+    width: 6em;
+    display: block;
+    border: 2px solid black;
+    padding: 1px 5px;
+    background: #d3d8c3;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  a.netlify-identity-button {
+    text-decoration: none !important;
+  }
+
+  div.footer-container {
+    font-size: smaller;
+    color: black;
+    margin: 3px 5px;
+  }
+</style>  
+<div data-netlify-identity-button ></div>
 
   <div class="footer-container">
-    <div>Updated: Apr 7, 2021 at 5:52pm CDT</div>
+    <div>Updated: Apr 19, 2021 at 7:44am CDT</div>
     <div>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></div>
   </div>
 </footer>
@@ -410,6 +431,13 @@ audio {
 
 
     
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-194668720-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
   
 
   </body>

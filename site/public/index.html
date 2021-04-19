@@ -116,29 +116,6 @@ audio {
 
     
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-  <style>
-    div a.netlify-identity-button {
-      width: 6em;
-      display: block;
-      border: 2px solid black;
-      padding: 1px 5px;
-      background: #d3d8c3;
-      margin: auto;
-      text-align: center;
-      border-radius: 4px;
-    }
-
-    a.netlify-identity-button {
-      text-decoration: none !important;
-    }
-
-    div.footer-container {
-      font-size: smaller;
-      color: black;
-      margin: 3px 5px;
-    }
-  </style>  
 
   
 </head>
@@ -149,7 +126,7 @@ audio {
 <!-- hugo: layouts/partials/menu.html -->
 
 
-<nav class="menu">
+<nav class="menu big small">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
 		<span class="menu__btn-title" tabindex="-1"></span>
 	</button>
@@ -184,64 +161,10 @@ audio {
       
       
       		<li class="menu__item menu__dropdown">
-      			<a class="menu__link" href="/about/">
-      				
-      				<span class="menu__text"><i data-feather="info"></i> About</span>
-      				<label class="drop-icon" for="About">▾</label>
-      				
-      			</a>
-      			<input type="checkbox" id="About">
-      			<ul class="submenu__list">
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/organization/">
-      						
-      						<span class="menu__text">Organization</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/advertise/">
-      						
-      						<span class="menu__text">Advertise with Us!</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/web-specs/">
-      						
-      						<span class="menu__text">Web Material Specs</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/rental-contract/">
-      						
-      						<span class="menu__text">Rental Contract</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/contact/">
-      						
-      						<span class="menu__text">Contact Us</span>
-      						
-      					</a>
-      					</li>
-      				
-      			</ul>
-      		</li>
-      
-      
-      		<li class="menu__item menu__dropdown">
       			<a class="menu__link" href="/history/">
       				
       				<span class="menu__text"><i data-feather="archive"></i> History</span>
-      				<label class="drop-icon" for="History">▾</label>
+              
       				
       			</a>
       			<input type="checkbox" id="History">
@@ -313,6 +236,60 @@ audio {
       				
       			</ul>
       		</li>
+      
+      
+      		<li class="menu__item menu__dropdown">
+      			<a class="menu__link" href="/about/">
+      				
+      				<span class="menu__text"><i data-feather="info"></i> About</span>
+              
+      				
+      			</a>
+      			<input type="checkbox" id="About">
+      			<ul class="submenu__list">
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/organization/">
+      						
+      						<span class="menu__text">Organization</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/advertise/">
+      						
+      						<span class="menu__text">Advertise with Us!</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/web-specs/">
+      						
+      						<span class="menu__text">Web Material Specs</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/rental-contract/">
+      						
+      						<span class="menu__text">Rental Contract</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/contact/">
+      						
+      						<span class="menu__text">Contact Us</span>
+      						
+      					</a>
+      					</li>
+      				
+      			</ul>
+      		</li>
 	</ul>
 </nav>
 
@@ -331,6 +308,13 @@ audio {
       <h1>The Wieting Theatre</h1>
       
         <!-- hugo: layouts/partials/socialshare.html -->
+
+<style>
+  .social-share .share-icons li {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+</style>  
 
 
 <section class="social-share">
@@ -383,6 +367,45 @@ audio {
       </div>
     </div>
 
+    <style>
+  
+  div.recognition {
+    display: block;
+    border: 4px solid black;
+    padding: 1em;
+    background: #d3d8c3;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    font-size: smaller;
+    margin-bottom: 1em;
+  }
+
+  .recognition ul { display:block; padding:0; text-align:center }
+  .recognition li { display:inline }
+  .recognition li a { white-space:nowrap }
+  .recognition li:after { content:" "; letter-spacing:1em; background:center center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=); }
+  
+  .recognition-item { font-weight: bold; }
+  
+</style> 
+
+
+<div class="recognition">
+  <div class="recognition-pre">
+    Thank you to the following organizations for supporting the Wieting thru a very difficult year:
+  </div>
+  <ul>
+    <li class="recognition-item">Iowa&nbsp;Department of&nbsp;Cultural&nbsp;Affairs</li>
+    <li class="recognition-item">The&nbsp;Iowa Economic Development&nbsp;Authority</li>
+    <li class="recognition-item">Arts&nbsp;Midwest</li>
+  </ul> 
+  <div class="recognition-post">
+    Thank you <b>Michelle Evans</b> for connecting the Wieting with these wonderful organizations, and for all you do!
+  </div> 
+</div>
+
+
     <div role="main" class="main-container container js-quickedit-main-content">
       <div class="row">
         <div class="col-sm-12" role="heading">
@@ -395,7 +418,7 @@ audio {
                   <div class="view-header">
                     <img src="images/TheWieting-Banner1000.png" style="width:100%">
                   </div>
-
+                  
                   <div class="view-content">
                     
                     <div class="one-sheet-views-grid">
@@ -406,7 +429,7 @@ audio {
   <div class="views-field views-field-field-performance-times">
     <div class="field-content">
       <span class="views-field">
-        Until Further Notice
+        April 25!
       </span>
     </div>
   </div>
@@ -414,7 +437,7 @@ audio {
   <div class="views-field views-field-field-show-rating">
     <div class="field-content">
       <span class="views-field">
-        Not Rated
+        R
       </span>
     </div>
   </div>
@@ -422,7 +445,7 @@ audio {
   <div class="views-field views-field-field-one-sheet">
     <div class="field-content">
       <span class="views-field">
-        <a href="/show/closed-until-further-notice/"><img src="/img/_keep_closed-until-further-notice.jpg" alt="" typeof="foaf:Image" class="img-responsive oneSheet"></a>
+        <a href="/show/2021-04-25-caddyshack/"><img src="/img/caddyshack.png" alt="" typeof="foaf:Image" class="img-responsive oneSheet"></a>
       </span>
     </div>
   </div>
@@ -430,7 +453,7 @@ audio {
   <div class="views-field views-field-title">
     <span class="field-content">
       <span class="views-field">
-        Closed...Sorry
+        Caddyshack
       </span>
     </span>
   </div>
@@ -445,7 +468,7 @@ audio {
   <div class="views-field views-field-field-performance-times">
     <div class="field-content">
       <span class="views-field">
-        Mid-April
+        May 1
       </span>
     </div>
   </div>
@@ -461,7 +484,7 @@ audio {
   <div class="views-field views-field-field-one-sheet">
     <div class="field-content">
       <span class="views-field">
-        <a href="/show/reopening-in-april/"><img src="/img/_keep_closed-until-further-notice.jpg" alt="" typeof="foaf:Image" class="img-responsive oneSheet"></a>
+        <a href="/show/2021-05-01-tbd/"><img src="/img/_default_no-image-available.png" alt="" typeof="foaf:Image" class="img-responsive oneSheet"></a>
       </span>
     </div>
   </div>
@@ -469,7 +492,7 @@ audio {
   <div class="views-field views-field-title">
     <span class="field-content">
       <span class="views-field">
-        Reopening!
+        To Be Determined
       </span>
     </span>
   </div>
@@ -518,10 +541,32 @@ audio {
 
     
 <footer id="footer" class="mt-auto text-center text-muted">
-    <div data-netlify-identity-button ></div>
+  <style>
+  div a.netlify-identity-button {
+    width: 6em;
+    display: block;
+    border: 2px solid black;
+    padding: 1px 5px;
+    background: #d3d8c3;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  a.netlify-identity-button {
+    text-decoration: none !important;
+  }
+
+  div.footer-container {
+    font-size: smaller;
+    color: black;
+    margin: 3px 5px;
+  }
+</style>  
+<div data-netlify-identity-button ></div>
 
   <div class="footer-container">
-    <div>Updated: Apr 7, 2021 at 5:52pm CDT</div>
+    <div>Updated: Apr 19, 2021 at 7:44am CDT</div>
     <div>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></div>
   </div>
 </footer>
@@ -569,6 +614,13 @@ audio {
 
 
     
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-194668720-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
   
 
   </body>

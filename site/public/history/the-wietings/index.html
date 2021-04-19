@@ -114,29 +114,6 @@ audio {
 
     
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-  <style>
-    div a.netlify-identity-button {
-      width: 6em;
-      display: block;
-      border: 2px solid black;
-      padding: 1px 5px;
-      background: #d3d8c3;
-      margin: auto;
-      text-align: center;
-      border-radius: 4px;
-    }
-
-    a.netlify-identity-button {
-      text-decoration: none !important;
-    }
-
-    div.footer-container {
-      font-size: smaller;
-      color: black;
-      margin: 3px 5px;
-    }
-  </style>  
 
   
 </head>
@@ -147,7 +124,7 @@ audio {
 <!-- hugo: layouts/partials/menu.html -->
 
 
-<nav class="menu">
+<nav class="menu big small">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
 		<span class="menu__btn-title" tabindex="-1"></span>
 	</button>
@@ -181,65 +158,11 @@ audio {
       		</li>
       
       
-      		<li class="menu__item menu__dropdown">
-      			<a class="menu__link" href="/about/">
-      				
-      				<span class="menu__text"><i data-feather="info"></i> About</span>
-      				<label class="drop-icon" for="About">▾</label>
-      				
-      			</a>
-      			<input type="checkbox" id="About">
-      			<ul class="submenu__list">
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/organization/">
-      						
-      						<span class="menu__text">Organization</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/advertise/">
-      						
-      						<span class="menu__text">Advertise with Us!</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/web-specs/">
-      						
-      						<span class="menu__text">Web Material Specs</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/rental-contract/">
-      						
-      						<span class="menu__text">Rental Contract</span>
-      						
-      					</a>
-      					</li>
-      				
-      					<li class="menu__item">
-      					<a class="menu__link" href="/about/contact/">
-      						
-      						<span class="menu__text">Contact Us</span>
-      						
-      					</a>
-      					</li>
-      				
-      			</ul>
-      		</li>
-      
-      
       		<li class="menu__item menu__dropdown menu__item--active">
       			<a class="menu__link" href="/history/">
       				
       				<span class="menu__text"><i data-feather="archive"></i> History</span>
-      				<label class="drop-icon" for="History">▾</label>
+              
       				
       			</a>
       			<input type="checkbox" id="History">
@@ -311,6 +234,60 @@ audio {
       				
       			</ul>
       		</li>
+      
+      
+      		<li class="menu__item menu__dropdown">
+      			<a class="menu__link" href="/about/">
+      				
+      				<span class="menu__text"><i data-feather="info"></i> About</span>
+              
+      				
+      			</a>
+      			<input type="checkbox" id="About">
+      			<ul class="submenu__list">
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/organization/">
+      						
+      						<span class="menu__text">Organization</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/advertise/">
+      						
+      						<span class="menu__text">Advertise with Us!</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/web-specs/">
+      						
+      						<span class="menu__text">Web Material Specs</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/rental-contract/">
+      						
+      						<span class="menu__text">Rental Contract</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
+      					<a class="menu__link" href="/about/contact/">
+      						
+      						<span class="menu__text">Contact Us</span>
+      						
+      					</a>
+      					</li>
+      				
+      			</ul>
+      		</li>
 	</ul>
 </nav>
 
@@ -325,9 +302,23 @@ audio {
   <!-- hugo: main block defined in layouts/history/single.html -->
   <h1>The Wieting&#39;s</h1>
   <p><a href="https://www.findagrave.com/memorial/91328896/philip-godfrey-wieting">Dr. Philip Godfrey Wieting</a> and his wife, <a href="https://www.findagrave.com/memorial/91329030/hellen-wieting">Hellen &ldquo;Ella&rdquo; Wilder Wieting</a> had moved to Toledo in the spring of 1867 from Worcester, New York. Dr. Wieting initially practiced dentistry in Toledo and also had successful interests in the mercantile and abstract businesses. In 1878, with his father-in-law, <a href="https://www.findagrave.com/memorial/91329776/nathaniel-h.-wilder">N .H. Wilder</a>, Dr. Wieting started the Toledo City Bank - forerunner of the present local bank. He was on the board of directors until his death on Feb. 12, 1906.</p>
-<p><img src="/img/_history_Dr_Wieting-small.jpg" alt="Dr. Wieting"> &ldquo;Dr. P. G. Wieting&rdquo;)</p>
+
+<figure class="figure">
+    
+    
+    <a href="/img/_history_Dr_Wieting-small.jpg"><img src="/img/_history_Dr_Wieting-small.jpg" alt="Dr. P. G. Wieting" class="figure-img img-fluid"></a>
+    <figcaption class="figure-caption">Dr. P. G. Wieting</figcaption>
+</figure>
+
 <p>Around the turn of the century, the Wietings moved back to New York state, to Syracuse. Wieting, who had prospered here, prospered even more in the new location where he became associated with a relative in a manufacturing concern and amassed his new fortune.</p>
-<p><img src="/img/_history_Ella-Wieting-small.jpg" alt="Mrs. Wieting"> &ldquo;Hellen &quot;Ella&quot; Wilder Wieting&rdquo;)</p>
+
+<figure class="figure">
+    
+    
+    <a href="/img/_history_Ella-Wieting-small.jpg"><img src="/img/_history_Ella-Wieting-small.jpg" alt="Hellen &#39;Ella&#39; Wilder Wieting" class="figure-img img-fluid"></a>
+    <figcaption class="figure-caption">Hellen &#39;Ella&#39; Wilder Wieting</figcaption>
+</figure>
+
 <p>After his death, his widow gave generously to worthy causes. Three of her gifts were memorial theater to the three towns where the Wietings had lived happily and participated widely in civic affairs: Worcester, New York; Toledo, Iowa; and Syracuse, New York.</p>
 
   <div class="prev-next">
@@ -361,10 +352,32 @@ audio {
 
     
 <footer id="footer" class="mt-auto text-center text-muted">
-    <div data-netlify-identity-button ></div>
+  <style>
+  div a.netlify-identity-button {
+    width: 6em;
+    display: block;
+    border: 2px solid black;
+    padding: 1px 5px;
+    background: #d3d8c3;
+    margin: auto;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  a.netlify-identity-button {
+    text-decoration: none !important;
+  }
+
+  div.footer-container {
+    font-size: smaller;
+    color: black;
+    margin: 3px 5px;
+  }
+</style>  
+<div data-netlify-identity-button ></div>
 
   <div class="footer-container">
-    <div>Updated: Apr 7, 2021 at 5:52pm CDT</div>
+    <div>Updated: Apr 19, 2021 at 7:44am CDT</div>
     <div>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></div>
   </div>
 </footer>
@@ -412,6 +425,13 @@ audio {
 
 
     
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-194668720-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
   
 
   </body>
