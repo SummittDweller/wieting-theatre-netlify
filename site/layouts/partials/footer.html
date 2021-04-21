@@ -1,31 +1,6 @@
 {{ if ne .Site.Params.hideFooter true }}
 <footer id="footer" class="mt-auto text-center text-muted">
   {{ partial "netlify-identity-footer.html" . }}
-  <div class="footer-container">
-    <div>Updated: {{ now.Local.Format "Jan 2, 2006 at 3:04pm MST" | markdownify }}</div>
-    <div>{{ .Site.Params.footerText | markdownify }}</div>
-  </div>
 </footer>
-
-<!-- delay execution of checkTweetDate until everything has rendered -->
-<!-- concept from https://stackoverflow.com/a/55049434 
-<script>
-  function delay() {
-    setTimeout(function() {
-        checkTweetDate();
-    }, 200);
-  }
-
-  if (document.readyState == 'complete') {
-    delay();
-  } else {
-    document.onreadystatechange = function () {
-      if (document.readyState === "complete") {
-        delay();
-      }
-    }
-  }
-</script>
--->
 
 {{ end }}
