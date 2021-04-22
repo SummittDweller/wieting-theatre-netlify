@@ -1,15 +1,18 @@
 {{ `<!-- hugo: layouts/partials/socialshare.html -->` | safeHTML }}
 
-<style>
-  .social-share .share-icons li {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-</style>  
-
 <!-- Social Share Button HTML -->
 <section class="social-share">
   <ul class="share-icons">
+    <!-- Donations-->
+    {{ if .Site.Params.social.share.donate.switch }}
+      <li>
+        <a href="{{ .Site.Params.social.share.donate.url }}" target="_blank" class="share-btn donate">
+          {{ partial "svg/gift.svg" (dict "class" "widget-social__link-icon") }}
+          <p>Donate</p>
+          </a>
+      </li>
+    {{ end }}
+
     <!-- Twitter -->
     {{ if .Site.Params.social.share.twitter.switch }}
       <li>
