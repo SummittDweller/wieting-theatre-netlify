@@ -1,13 +1,14 @@
 ---
 expiryDate: 2021-05-03
-dateRange: May 1
+dateRange: May 2
 runningTime: 116
 mpaaRating: PG
 officialURL: https://www.backtothefuture.com/
 imdbURL: https://www.imdb.com/title/tt0088763/
 performanceList:
   performance:
-    - date: 2021-05-02T00:00:00.000Z
+    - date: 2021-05-03T00:00:13.339Z
+      format: 2D
 studioInfo:
   studio: Universal
   studioFee: 0
