@@ -4,7 +4,12 @@ draft: false
 author: Mackenzie McFate
 date: 2021-04-22T07:50:29-05:00
 socialshare: false
-weight: 100
+weight: 140
+menu:
+  main:
+    identifier: donate
+    parent: about
+    weight: 860
 ---
 
 ### Thank you for your support of The Wieting Theatre, a 501(c)(3) charitable organization.
