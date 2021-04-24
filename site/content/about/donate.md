@@ -1,5 +1,5 @@
 ---
-title: Donations
+title: Donate!
 draft: false
 author: Mackenzie McFate
 date: 2021-04-22T07:50:29-05:00
@@ -36,7 +36,7 @@ But we can't do it alone. As a not-for-profit organization, The Wieting Theatre 
 
 [Donate online - One-time or monthly!](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=E28RAEFST2Z7Q)
 
-If you would prefer to do a monthly ACH withdrawal from your bank account, please print this form [PDF], fill it out, and mail it to:
+If you would prefer to do a monthly ACH withdrawal from your bank account, please download and print [this PDF form](/pledge-card.pdf), fill it out, and mail it to:
 
 ***The Wieting Theatre <br>
 PO Box 387 <br>

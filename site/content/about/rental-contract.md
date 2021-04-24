@@ -12,4 +12,6 @@ menu:
     weight: 840
 ---
 
-The latest Wieting rental contract / agreement, including stipulations for a "private showing", is being revised. Please contact Michelle Evans at 641-751-0775 or Mary Fasse-Shaw at 641-751-5251 for immediate assistance
+The latest Wieting rental contract / agreement, including stipulations for a "private showing", is being revised. Please contact Michelle Evans at 641-751-0775 or Mary Fasse-Shaw at 641-751-5251 for immediate assistance.
+
+The contract/worksheet for the "Event Room" (on the south side of the theatre) ONLY is available for [download here as a PDF file](/contract-worksheet-addition-only.pdf).
