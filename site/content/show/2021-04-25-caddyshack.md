@@ -15,7 +15,7 @@ studioInfo:
 draft: false
 showFormat: null
 title: Caddyshack
-description: ""
+description: " "
 publishDate: 2020/03/15
 shortTitle: Caddyshack
 oneSheet: /img/caddyshack.png
