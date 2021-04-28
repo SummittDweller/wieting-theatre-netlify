@@ -22,8 +22,8 @@ shortTitle: Back to the Future 3
 oneSheet: /img/back-to-the-future-part-3.png
 showType: Cinema
 ---
-Stranded in 1955, Marty McFly learns about the death of Doc Brown in 1885 and must travel back in time to save him. With no fuel readily available for the DeLorean, the two must figure how to escape the Old West before Emmett is murdered.
+Stranded in 1955, Marty McFly learns about the death of Doc Brown in 1885 and must travel back in time to save him. With no fuel readily available for the DeLorean, the two must figure how to escape the Old West before Emmett is murdered.  
 
-Director: Robert Zemeckis
-Writers: Robert Zemeckis (characters), Bob Gale (characters)
-Stars: Michael J. Fox, Christopher Lloyd, Mary Steenburgen
+Director: Robert Zemeckis  
+Writers: Robert Zemeckis (characters), Bob Gale (characters)  
+Stars: Michael J. Fox, Christopher Lloyd, Mary Steenburgen  

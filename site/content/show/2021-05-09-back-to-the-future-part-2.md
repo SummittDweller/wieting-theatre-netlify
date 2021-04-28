@@ -22,8 +22,8 @@ shortTitle: Back to the Future 2
 oneSheet: /img/back-to-the-future-part-2.png
 showType: Cinema
 ---
-After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.
+After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985...without interfering with his first trip.  
 
-Director: Robert Zemeckis
-Writers: Robert Zemeckis (characters), Bob Gale (characters)
-Stars: Michael J. Fox, Christopher Lloyd, Lea Thompson 
+Director: Robert Zemeckis  
+Writers: Robert Zemeckis (characters), Bob Gale (characters)  
+Stars: Michael J. Fox, Christopher Lloyd, Lea Thompson  
