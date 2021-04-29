@@ -6,12 +6,7 @@ mpaaRating: Not Rated
 officialURL: null
 imdbURL: null
 performanceList:
-  performance:
-    - date: 2021-03-28T19:00:00-05:00
-      format: 2D
-    - date: 2021-03-29T15:00:00-05:00
-      format: 3D
-      note: This is a special matinee showing.
+  performance: []
 studioInfo:
   ? studio
   ? studioFee
