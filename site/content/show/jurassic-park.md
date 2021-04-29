@@ -4,7 +4,7 @@ publishDate: 2021-04-28
 expiryDate: 2021-05-31
 dateRange: May 30th
 shortTitle: Jurassic Park
-oneSheet: _default_no-image-available.png
+oneSheet: /img/jurasic-park.png
 showType: Cinema
 runningTime: 127
 mpaaRating: PG-13
