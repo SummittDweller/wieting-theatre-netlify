@@ -16,7 +16,7 @@ draft: false
 showFormat: null
 title: Caddyshack
 description: " "
-publishDate: 2020/03/15
+publishDate: 2021-03-01
 shortTitle: Caddyshack
 oneSheet: /img/caddyshack.png
 showType: Cinema
