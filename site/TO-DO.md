@@ -2,12 +2,13 @@
 
 ## Complete List
 
-  - [ ] Add a Donate Menu Item
+  - [x] Add a Donate Menu Item
   - [ ] Automated Creation of TBD Shows and Performances
   - [ ] Add Google, or Other, Calendar Page(s)
   - [x] Add Donor Recognition Text to the Home Page
   - [ ] Add a Pop-Up Notification "Overlay" to the Home Page
-
+  - [ ] Add display of Official URL and IMDB URL to the show's page
+  
 ## Add a `Donate` Menu Item
 
 In our old site, still running at https://wieting.TamaToledo.org, you will find a `Donate!` menu item.  You can jump directly to it at https://wieting.tamatoledo.org/content/donate-today.  We need the same menu item and page added to the main menu in the new site, complete with a [Donate online - One-time or monthly!](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E28RAEFST2Z7Q) link as seen in the old page.
@@ -52,3 +53,7 @@ _Thank you to the: Iowa Department of Cultural Affairs, The Iowa Economic Develo
 ## Add a Pop-Up Notification "Overlay" to the Home Page
 
 _Digital.Grinnell_ now employs a _Drupal_ module that can provide a pop-up (Javascript driven) "overlay" message.  The message can be given and _expiryDate_ when it automatically disappers, and the user can easily click it out of the way once it's been read.  It would be nice to have the same for the Wieting.  Initial message might be that we plan to show "classic" movies on Sunday evening only until COVID-19 numbers decline more significantly.  
+
+## Add Show URLs to Show's Page
+
+There are two optional URLs for each Show, the "official" site and the IMDB page.  Please add display of both of these, if provided (don't print an empty label with no value), on each show's individual page.
