@@ -97,6 +97,20 @@
             <span class="field--label">Running Time: </span>
             <span content="10" class="field--item-bold">{{ .Params.runningTime }} minutes</span>
           </div>
+          {{ if or (.Params.officialURL) (.Params.imdbURL) }}
+            <div class="show-urls">
+              <hr/>
+              {{ if .Params.officialURL }}
+                <span class="field--label">Official Site: </span>
+                <span class="field--item-bold"><a href="{{ .Params.officialURL }}" target="_blank">{{ .Params.officialURL }}</a></span>
+                <br/>
+              {{ end }}
+              {{ if .Params.imdbURL }}
+                <span class="field--label">IMDB Page: </span>
+                <span class="field--item-bold"><a href="{{ .Params.imdbURL }}" target="_blank">{{ .Params.imdbURL }}</a></span>
+              {{ end }}
+            </div>
+          {{ end }}  
           <br/>
         </div>
       </div>

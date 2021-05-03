@@ -7,7 +7,7 @@
   - [ ] Add Google, or Other, Calendar Page(s)
   - [x] Add Donor Recognition Text to the Home Page
   - [ ] Add a Pop-Up Notification "Overlay" to the Home Page
-  - [ ] Add display of Official URL and IMDB URL to the show's page
+  - [x] Add display of Official URL and IMDB URL to the show's page
   
 ## Add a `Donate` Menu Item
 
