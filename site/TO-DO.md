@@ -8,6 +8,7 @@
   - [x] Add Donor Recognition Text to the Home Page
   - [ ] Add a Pop-Up Notification "Overlay" to the Home Page
   - [x] Add display of Official URL and IMDB URL to the show's page
+  - [ ] Add a new "Camps" page under "About"
   
 ## Add a `Donate` Menu Item
 
@@ -57,3 +58,7 @@ _Digital.Grinnell_ now employs a _Drupal_ module that can provide a pop-up (Java
 ## Add Show URLs to Show's Page
 
 There are two optional URLs for each Show, the "official" site and the IMDB page.  Please add display of both of these, if provided (don't print an empty label with no value), on each show's individual page.
+
+## New "Camps" Page for Kids/Educational Events
+
+Include .pdf forms for Summer camps like "All About the Arts" and "STEM Camp".
