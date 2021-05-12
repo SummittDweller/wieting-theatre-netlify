@@ -63,7 +63,7 @@ params:
     share:
       donate:
         switch: true
-        url: "/about/donate"
+        url: "/donate"
       facebook:
         switch: true
         url: "https://www.facebook.com/WietingTheatre/"
