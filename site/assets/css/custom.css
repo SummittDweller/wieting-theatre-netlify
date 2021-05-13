@@ -8,6 +8,11 @@ div.debug {
   margin-bottom: 2em;
 }
 
+/* Make the Donate! menu item stand out */
+.menu__list > li:nth-child(3) > a:nth-child(1) {
+  color: #ffc107; 
+}
+
 tr {
   line-height: 0.75em;
 }
