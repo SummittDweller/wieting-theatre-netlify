@@ -8,7 +8,8 @@
   - [x] Add Donor Recognition Text to the Home Page
   - [ ] Add a Pop-Up Notification "Overlay" to the Home Page
   - [x] Add display of Official URL and IMDB URL to the show's page
-  - [ ] Add a new "Camps" page under "About"
+  - [x] Add a new "Camps" page under "About"
+  - [ ] Add a "Links" page with a list of external resources
   
 ## Add a `Donate` Menu Item
 
@@ -62,3 +63,7 @@ There are two optional URLs for each Show, the "official" site and the IMDB page
 ## New "Camps" Page for Kids/Educational Events
 
 Include .pdf forms for Summer camps like "All About the Arts" and "STEM Camp".
+
+## Add a "Links" page with a list of external resources
+
+Just what the heading implies.  Links can be found on a OneTab at https://www.one-tab.com/page/mb6s610ySvqnnQbwCi0_ZA.
