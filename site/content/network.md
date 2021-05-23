@@ -36,9 +36,6 @@ The Wieting's systems are identified as follows:
 10.0.0.x = MEDIA Network
 10.11.128.x = OPERATIONS network... everything cinema-related except MEDIA
 
-Password for VNC to the GDC server is `gdcvnc`
-VNC to the Christie projector should address 10.11.128.191 with a password of `cdsclub`
-
 Problem:  When the iMac's ethernet connection is active, the iMac cannot access the internet!
 
 -->
@@ -48,12 +45,22 @@ Problem:  When the iMac's ethernet connection is active, the iMac cannot access 
 {{<table "table table-striped table-bordered">}}
 | Device Code | Description | Physical Location |
 | --- | --- | --- |
-| A | Thompson DCM476 Cable Modem from Mediacom | Projection Booth - Top of Audio Rack |
-| B | NetGear 4-Port Wireless Router | Projection Booth - Top of Audio Rack |
-| C | DGS-2208 8-Port Gigabit Switch | Projection Booth - Top of Audio Rack |
-| D | NetGear ProSafe 8-Port Gigabit Switch | Projection Booth - Rear of Cinema Pedestal |
-| E | JNIOR A-310 Programmable Logic Controller | Projection Booth - Rear of Cinema Pedestal |
+| A | Wieting-Booth iMac | Projection Booth - Projection Desk |
+| B | Samsung Blu-Ray Player | Projection Booth - Projection Desk |
+| C | GDC SX-2000AR Cinema Server | Projection Booth - Projector Pedastal |
+| D | Dolby CP750 Audio Processor | Projection Booth - Audio Rack |
+| E | Eero Wireless Mesh Gateway | Light Board Desk w/ 2 Satelite Units in the Annex |
 | F | Simplex Grinnell Fire Alarm | Stage North |
+| G | DGS-2208 8-Port Gigabit Switch | Projection Booth - Top of Audio Rack |
+| H | 4-Port HDMI Swith w/ Optical Audio Input | Projection Booth - Projection Desk |
+| J | JNIOR A-310 Programmable Logic Controller | Projection Booth - Rear of Cinema Pedestal |
+| K | 2-Port Ethernet Punch Box | Projection Booth - North Side of Projector Pedestal |
+| L | Ubuntu-Trailers Linux Desktop | Projection Booth - Projection Desk |
+| M | Thompson DCM476 Cable Modem from Mediacom | Projection Booth - Top of Audio Rack |
+| O | Wieting-BoxOffice Windows Desktop Computer | Box Office - North Desk |
+| R | NetGear 4-Port + Wireless Router | Projection Booth - Top of Audio Rack |
+| S | NetGear ProSafe 8-Port Gigabit Switch | Projection Booth - Rear of Cinema Pedestal |
+| W | 3-Port Ethernet Terminations | Stage - North (2) and South (1) Wings |
 {{< /table >}}            
 
 ### Cable Label Convention
@@ -66,6 +73,6 @@ Labels should be applied such that the `DeviceCode.Port` corresponding to a part
 
 #### Examples
 
-  - A `THEATRE` network cable running from device `B`, port 1, to an unidentified port on device `F` will have a pair of labels marked `B.1 - THEATRE - F.x`.  \*At device `B` the `B.1` end of the label should be nearest device `B`, while at device `F` the `F.x` end should be nearest the device.
-  - A `USB` cable running from an unidentified port on device `G` to an `In` port on device `P` will carry a pair of lables marked `G.x - USB - P.In`.
-  - An `HDMI` cable running from the `Out` port on device `T` to an `In` port on device `C` will be labeled `T.Out - HDMI - C.In`.
+  - A `THEATRE` network cable running from device `R`, port 1, to an unidentified port on device `F` will have a pair of labels marked `R.1 - THEATRE - F.x`.  \*For example, at device `R` the `R.1` end of the label should be nearest device `R`, while at device `F` the `F.x` end of that label should be nearest device `F`.
+  - A `USB` cable running from an unidentified port on device `L` to an `In` port on device `X` will carry a pair of lables marked `L.x - USB - X.In`.
+  - An `HDMI-to-DVI` cable running from the `Out` port on device `H` to a `DVI` port on device `P` will be labeled `H.Out - HDMI-to-DVI - P.DVI`.
