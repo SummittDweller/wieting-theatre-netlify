@@ -61,7 +61,7 @@ Problem:  When the iMac's ethernet connection is active, the iMac cannot access 
 | P | Christie CP2210 Cinema Projector | Projection Booth - Cinema Pedestal |
 | R | NetGear 4-Port + Wireless Router | Projection Booth - Top of Audio Rack |
 | S | NetGear ProSafe 8-Port Gigabit Switch | Projection Booth - Rear of Cinema Pedestal |
-| W | 3-Port Ethernet Terminations | Stage - North (2) and South (1) Wings |
+| W | Three Individual Ethernet Terminations | Stage - North (2) and South (1) Wings |
 {{< /table >}}            
 
 ### Cable Label Convention
