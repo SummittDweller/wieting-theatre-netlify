@@ -51,7 +51,7 @@ Problem:  When the iMac's ethernet connection is active, the iMac cannot access 
 | D | Dolby CP750 Audio Processor | Projection Booth - Audio Rack |
 | E | Eero Wireless Mesh Gateway | Light Board Desk w/ 2 Satelite Units in the Annex |
 | F | Simplex Grinnell Fire Alarm | Stage North |
-| G | DGS-2208 8-Port Gigabit Switch | Projection Booth - Top of Audio Rack |
+| G | Netgear 16-Port Gigabit Switch | Projection Booth - Top of Audio Rack |
 | H | 4-Port HDMI Swith w/ Optical Audio Input | Projection Booth - Projection Desk |
 | J | JNIOR A-310 Programmable Logic Controller | Projection Booth - Rear of Cinema Pedestal |
 | K | 2-Port Ethernet Punch Box | Projection Booth - North Side of Projector Pedestal |
