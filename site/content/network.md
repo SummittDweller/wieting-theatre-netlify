@@ -40,6 +40,11 @@ Problem:  When the iMac's ethernet connection is active, the iMac cannot access 
 
 -->
 
+## Diagram
+
+{{< imgfig "/img/_Wieting-Networks-Topology-2021.png" >}}
+
+
 ## Wieting Network Topology "Secret Decoder Ring"
 
 {{<table "table table-striped table-bordered">}}
@@ -54,14 +59,15 @@ Problem:  When the iMac's ethernet connection is active, the iMac cannot access 
 | G | Netgear 16-Port Gigabit Switch | Projection Booth - Top of Audio Rack |
 | H | 4-Port HDMI Swith w/ Optical Audio Input | Projection Booth - Projection Desk |
 | J | JNIOR A-310 Programmable Logic Controller | Projection Booth - Rear of Cinema Pedestal |
-| K | 2-Port Ethernet Punch Box | Projection Booth - North Side of Projector Pedestal |
-| L | Ubuntu-Trailers Linux Desktop | Projection Booth - Projection Desk |
+| K | 2-Port Ethernet Punch Box | **To Be Removed** |
+| L | Ubuntu-Trailers Linux Desktop | **To Be Removed** |
 | M | Thompson DCM476 Cable Modem from Mediacom | Projection Booth - Top of Audio Rack |
 | O | Wieting-BoxOffice Windows Desktop Computer | Box Office - North Desk |
 | P | Christie CP2210 Cinema Projector | Projection Booth - Cinema Pedestal |
 | R | NetGear 4-Port + Wireless Router | Projection Booth - Top of Audio Rack |
 | S | NetGear ProSafe 8-Port Gigabit Switch | Projection Booth - Rear of Cinema Pedestal |
 | W | Three Individual Ethernet Terminations | Stage - North (2) and South (1) Wings |
+| X | Booth-Windows - Windows 10 Desktop | Projection Booth - Projection Desk |
 {{< /table >}}            
 
 ### Cable Label Convention
