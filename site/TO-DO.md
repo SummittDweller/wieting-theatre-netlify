@@ -9,7 +9,8 @@
   - [ ] Add a Pop-Up Notification "Overlay" to the Home Page
   - [x] Add display of Official URL and IMDB URL to the show's page
   - [x] Add a new "Camps" page under "About"
-  - [ ] Add a "Links" page with a list of external resources
+  - [x] Add a "Links" page with a list of external resources. No menu required.
+  - [x] Add a "Network" page to document connections. No menu required.
   
 ## Add a `Donate` Menu Item
 
@@ -67,3 +68,7 @@ Include .pdf forms for Summer camps like "All About the Arts" and "STEM Camp".
 ## Add a "Links" page with a list of external resources
 
 Just what the heading implies.  Links can be found on a OneTab at https://www.one-tab.com/page/mb6s610ySvqnnQbwCi0_ZA.
+
+## Add a "Network" page to document systems and connections
+
+Just what the heading implies.  This page is available at https://wieting.tamatoledo.com/network. It includes a .png export of our latest networks diagram (still in progress).
