@@ -104,6 +104,7 @@ ul.share-icons li > * .label {
 .share-btn.reddit      { background: #ff5700; }
 .share-btn.email       { background: #ff0000; }
 .share-btn.whatsapp    { background: #25d366; }
+.share-btn.donate      { background: #8a9d76; }
 
 
 .share-btn.twitter:hover     { background: #4c9ad6; }
@@ -114,6 +115,7 @@ ul.share-icons li > * .label {
 .share-btn.pinterest:hover   { background: #AD0000; }
 .share-btn.reddit:hover      { background: #e54e00; }
 .share-btn.email:hover       { background: #c60000; }
+.share-btn.donate:hover      { background: #6e7e5d; }
 
 /* Elements below written for menu-card shortcode */
 

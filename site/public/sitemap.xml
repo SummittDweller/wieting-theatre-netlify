@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/network/</loc>
+    <lastmod>2021-05-22T06:40:53-05:00</lastmod>
+  </url><url>
+    <loc>/links/</loc>
+    <lastmod>2021-05-21T21:32:49-05:00</lastmod>
+  </url><url>
     <loc>/about/contact/</loc>
     <lastmod>2021-03-31T07:50:29-05:00</lastmod>
   </url><url>
@@ -16,6 +22,9 @@
   </url><url>
     <loc>/about/organization/</loc>
     <lastmod>2021-03-31T07:50:29-05:00</lastmod>
+  </url><url>
+    <loc>/about/camps/</loc>
+    <lastmod>2021-05-10T12:39:57-05:00</lastmod>
   </url><url>
     <loc>/about/</loc>
     <lastmod>2021-03-31T07:50:29-05:00</lastmod>
@@ -47,19 +56,75 @@
     <loc>/history/</loc>
     <lastmod>2021-03-31T07:50:29-05:00</lastmod>
   </url><url>
-    <loc>/concessions/</loc>
+    <loc>/calendar/</loc>
+    <lastmod>2021-04-22T07:50:29-05:00</lastmod>
+  </url><url>
+    <loc>/donate/</loc>
+    <lastmod>2021-04-22T07:50:29-05:00</lastmod>
+  </url><url>
+    <loc>/prices/</loc>
     <lastmod>2021-03-31T07:50:29-05:00</lastmod>
   </url><url>
-    <loc>/tickets/</loc>
-    <lastmod>2021-03-31T07:50:29-05:00</lastmod>
+    <loc>/event/</loc>
+    <lastmod>2021-06-13T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/show/</loc>
+    <lastmod>2021-06-13T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/event/2021-06-13_shrek/</loc>
+    <lastmod>2021-06-13T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/show/shrek/</loc>
+    <lastmod>2021-06-13T19:00:00-05:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-04-01T08:33:21-05:00</lastmod>
+    <lastmod>2021-06-13T19:00:00-05:00</lastmod>
   </url><url>
-    <loc>/show/2021-04-25-caddyshack/</loc>
+    <loc>/event/2021-06-06_jaws/</loc>
+    <lastmod>2021-06-06T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/show/jaws/</loc>
+    <lastmod>2021-06-06T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/event/2021-05-30_jurassic-park/</loc>
+    <lastmod>2021-05-30T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/performance/</loc>
+    <lastmod>2021-05-24T00:00:49+00:00</lastmod>
+  </url><url>
+    <loc>/performance/2021-05-23-7pm/</loc>
+    <lastmod>2021-05-24T00:00:49+00:00</lastmod>
+  </url><url>
+    <loc>/event/2021-05-23_et-the-extra-terrestrial/</loc>
+    <lastmod>2021-05-23T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/performance/2021-05-16-7pm/</loc>
+    <lastmod>2021-05-17T00:00:44+00:00</lastmod>
+  </url><url>
+    <loc>/event/2021-05-16-back-to-the-future-part-3/</loc>
+    <lastmod>2021-05-16T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+    <lastmod>2021-05-10T12:39:57-05:00</lastmod>
+  </url><url>
+    <loc>/performance/2021-05-09-7pm/</loc>
+    <lastmod>2021-05-10T00:00:44+00:00</lastmod>
+  </url><url>
+    <loc>/event/2021-05-09-back-to-the-future-part-2/</loc>
+    <lastmod>2021-05-09T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/event/2021-05-02-back-to-the-future/</loc>
+    <lastmod>2021-05-02T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>/performance/2021-05-01-7pm/</loc>
+    <lastmod>2021-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/performance/2021-04-25-7pm/</loc>
+    <lastmod>2021-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/history/</loc>
+    <lastmod>2021-03-31T07:50:29-05:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-  </url><url>
-    <loc>/show/2021-05-01-tbd/</loc>
   </url>
 </urlset>

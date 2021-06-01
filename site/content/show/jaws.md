@@ -1,5 +1,6 @@
 ---
 title: Jaws
+date: 2021-06-06T19:00:00-05:00
 publishDate: 2021-05-04
 expiryDate: 2021-06-07
 dateRange: June 6
@@ -12,7 +13,7 @@ officialURL: https://www.facebook.com/JawsMovie/
 imdbURL: https://www.imdb.com/title/tt0073195/
 performanceList:
   performance:
-    - date: 2021-06-07T00:00:54.390Z
+    - date: 2021-06-06T19:00:00-05:00
       format: 2D
 studioInfo:
   studio: Universal

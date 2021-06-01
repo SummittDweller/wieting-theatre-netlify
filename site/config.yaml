@@ -1,9 +1,10 @@
-baseURL: "/"
+# baseURL: "/"
 languageCode: en-us
 title: The Wieting Theatre
 theme: vanilla-bootstrap-hugo-theme
 socialshare: true
-disableKinds: [ "section", "RSS" ]
+# disableKinds: [ "section", "RSS" ]
+disableKinds: [ "RSS" ]
 
 googleAnalytics: UA-194668720-1
 
@@ -114,4 +115,6 @@ buildFuture: true
 publishDir: "public"
 
 outputs:
-    section: ["HTML", "JSON"]
+  section: 
+    - HTML
+    - JSON

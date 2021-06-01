@@ -1,15 +1,18 @@
-<!-- hugo: layouts/partials/baseof.html -->
+<!-- hugo: layouts/partials/_default/baseof.html -->
 
 <!doctype html>
 
 <html lang="en" class="h-100">
-  <head>
+  <!-- hugo: layouts/partials/head.html -->
+
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="generator" content="Hugo 0.82.0" />
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   
   <link rel="stylesheet" href="/css/custom.css">
+  <link rel='stylesheet' href='css/fullcalendar.min.css' />
 
   
   
@@ -21,7 +24,7 @@
     "@type" : "BlogPosting",
     "mainEntityOfPage": {
          "@type": "WebPage",
-         "@id": "\/"
+         "@id": ""
     },
     "articleSection" : "history",
     "name" : "Brilliant \u0022Opening Scene\u0022",
@@ -37,7 +40,7 @@
     "datePublished": "2021-03-31 07:50:29 -0500 CDT",
     "dateModified" : "2021-03-31 07:50:29 -0500 CDT",
     "url" : "\/history\/brilliant-opening-scene\/",
-    "wordCount" : "270",
+    "wordCount" : "275",
     "keywords" : [ "Blog" ]
 }
 </script>
@@ -45,7 +48,7 @@
   <title>Brilliant &#34;Opening Scene&#34; | The Wieting Theatre</title>
   <style>
 .container {
-  max-width: 1200px;
+  max-width: 1800px;
 }
 #nav a {
   font-weight: bold;
@@ -112,11 +115,17 @@ audio {
 }
 </style>
 
-    
+  <!-- hugo: layouts/partials/netlify-identity-head.html -->
+  
+  
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- /hugo: layouts/partials/netlify-identity-head.html -->
 
   
+
 </head>
+
+<!-- /hugo: layouts/partials/head.html -->
 
   <body class="d-flex flex-column h-100">
     
@@ -141,18 +150,27 @@ audio {
       
       
       		<li class="menu__item">
-      			<a class="menu__link" href="/tickets/">
+      			<a class="menu__link" href="/prices/">
       				
-              <span class="menu__text"><i data-feather="dollar-sign"></i> Tickets</span>
+              <span class="menu__text"><i data-feather="dollar-sign"></i> Prices</span>
       				
       			</a>
       		</li>
       
       
       		<li class="menu__item">
-      			<a class="menu__link" href="/concessions/">
+      			<a class="menu__link" href="/donate/">
       				
-              <span class="menu__text"><i data-feather="clipboard"></i> Concessions</span>
+              <span class="menu__text"><i data-feather="gift"></i> Donate!</span>
+      				
+      			</a>
+      		</li>
+      
+      
+      		<li class="menu__item">
+      			<a class="menu__link" href="/calendar/">
+      				
+              <span class="menu__text"><i data-feather="calendar"></i> Calendar</span>
       				
       			</a>
       		</li>
@@ -247,6 +265,14 @@ audio {
       			<ul class="submenu__list">
       				
       					<li class="menu__item">
+      					<a class="menu__link" href="/about/camps/">
+      						
+      						<span class="menu__text">Summer Camps</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
       					<a class="menu__link" href="/about/organization/">
       						
       						<span class="menu__text">Organization</span>
@@ -299,11 +325,19 @@ audio {
       <!-- hugo: main block in layouts/partials/baseof.html -->
       <main id="main">
         
-  <!-- hugo: main block defined in layouts/history/single.html -->
+  <!-- hugo: main block defined in layouts/_default/single.html -->
+  
   <h1>Brilliant &#34;Opening Scene&#34;</h1>
   <p>Described as the &ldquo;latest in opera house construction,&rdquo; the Wieting had been built through the spring and summer of 1912 for a total cost of $20,000. A brick building, 50 feet x 100 feet, it would seat 650 - with all the features of a fine opera house: stage, orchestra pit, main floor, balcony, two boxes, dressing rooms, a ticket office, toilets, and rest rooms.</p>
 <p>The contract for construction of the theatre was awarded in mid-March, 1912, to C. W. Ennis. Sherman Ennis directed the construction and supervised a number of tradesman and subcontractors including: James Bridge, carpentry work; A. H. Conant, roofing and plumbing; Roy Davis electrical wiring; G. M. Berger and Son, painting; Clarence Brainard, decorating.</p>
 <p>The Wieting immediately attracted high-grade entertainment. Located along the main line from Chicago through Cedar Rapids and Marshalltown to Omaha, the theatre was large enough to attract the best performers who could turn a nice profit on a weeks stand. People who remember those early days, remember the Opera House as &ldquo;always busy.&rdquo; There were minstrel shows, lyceum courses, class plays (high school and college), graduations, political conventions, and medicine shows. There was once a Ku Klux Klan gathering in the theatre and always a busy “Fair Week” with shows every night and a Saturday matinee.</p>
+<style>
+  .figure {
+    padding: 1em;
+  }
+</style>  
+
+
 
 <figure class="figure">
     
@@ -314,7 +348,13 @@ audio {
 
 <p>If you are a Tama-Toledo resident, then perhaps you remember the Juvenile Bostionians and the Florida Voss Hall players? How about Beech Green? Mr. and Mrs. Art Ludwig? Do you remember the &ldquo;war tax&rdquo; paid on all entertainment programs in 1917 and 1918? These things and many others are recorded in &ldquo;the books.&rdquo;</p>
 
-  <div class="prev-next">
+  
+  <!-- /hugo: main block defined in layouts/_default/single.html -->
+
+      </main>
+      <!-- hugo: main block in layouts/partials/baseof.html -->
+    </div>
+    <div class="prev-next">
   <div class="prev-item">
     
       <a class="link-reverse" href="/history/other-contributions/?ref=footer">« Other Contributions</a>
@@ -328,66 +368,73 @@ audio {
   </div>
 </div>  
 
-  <!-- /hugo: main block defined in layouts/history/single.html -->
+    <!-- hugo: layouts/partials/footer.html -->
 
-      </main>
-      <!-- hugo: main block in layouts/partials/baseof.html -->
-    </div>
-    <div class="prev-next">
-  <div class="prev-item">
-    
-  </div>
 
-  <div class="next-item">
-    
-  </div>
-</div>  
-
-    
 <footer id="footer" class="mt-auto text-center text-muted">
-  <style>
-  div a.netlify-identity-button {
-    width: 6em;
-    display: block;
-    border: 2px solid black;
-    padding: 1px 5px;
-    background: #d3d8c3;
-    margin: auto;
-    text-align: center;
-    border-radius: 4px;
-  }
+  <!-- hugo: layouts/partials/netlify-identity-footer.html -->
 
-  a.netlify-identity-button {
-    text-decoration: none !important;
-  }
+<style>
 
   div.footer-container {
     font-size: smaller;
     color: black;
     margin: 3px 5px;
+    text-align: center;
   }
-</style>  
-<div data-netlify-identity-button ></div>
+  
+  .footer-container ul { display:inline-block; padding:0; text-align:center }
+  .footer-container li { display:inline }
+  .footer-container li a { white-space:nowrap }
+  .footer-container li:after { content:" "; letter-spacing:1em; background:center center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=); }
 
-  <div class="footer-container">
-    <div>Updated: Apr 19, 2021 at 7:44am CDT</div>
-    <div>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></div>
-  </div>
+</style>  
+
+<div class="footer-container">
+  <ul>
+    <li class="bulleted-item">Updated: Jun 1, 2021 at 3:52pm CDT</li>
+    <li class="bulleted-item"><span data-netlify-identity-button></span></li>
+    <li class="bulleted-item"><span>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></span></li>
+  </ul>  
+</div>
+
+<!-- /hugo: layouts/partials/netlify-identity-footer.html -->
+
 </footer>
 
 
+<!-- /hugo: layouts/partials/footer.html -->
 
-
-
-
-    <script src="/js/feather.min.js"></script>
+    <!-- hugo: layouts/partials/script.html -->
+<script src="js/feather.min.js"></script>
 <script>
   feather.replace()
 </script>
 
 
-<script src="/js/jquery-3.3.1.slim.min.js"></script>
-<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+<script src='js/moment.min.js'></script>
+<script src='js/jquery.min.js'></script>
+<script src='js/jquery-ui.custom.min.js'></script>
+<script src='js/fullcalendar.min.js'></script>
+
+<script>
+    $(document).ready(function () {
+
+        console.log("Ready...");
+
+        $('#calendar').fullCalendar({
+            events: 'event/index.json'
+        })
+
+    });
+</script>
+
+<!-- /hugo: layouts/partials/script.html -->
 
     
 
@@ -430,4 +477,4 @@ audio {
   </body>
 </html>
 
-<!-- /hugo: layouts/partials/baseof.html -->
+<!-- /hugo: layouts/partials/_default/baseof.html -->

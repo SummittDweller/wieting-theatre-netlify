@@ -1,15 +1,18 @@
-<!-- hugo: layouts/partials/baseof.html -->
+<!-- hugo: layouts/partials/_default/baseof.html -->
 
 <!doctype html>
 
 <html lang="en" class="h-100">
-  <head>
+  <!-- hugo: layouts/partials/head.html -->
+
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="generator" content="Hugo 0.82.0" />
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   
   <link rel="stylesheet" href="/css/custom.css">
+  <link rel='stylesheet' href='css/fullcalendar.min.css' />
 
   
   
@@ -21,12 +24,12 @@
     "@type" : "BlogPosting",
     "mainEntityOfPage": {
          "@type": "WebPage",
-         "@id": "\/"
+         "@id": ""
     },
-    "articleSection" : "",
-    "name" : "History",
-    "headline" : "History",
-    "description" : "What follows is a very brief telling of the long history of Toledo\u0026rsquo;s Wieting Theatre presented in 8 parts. It\u0026rsquo;s worth noting up front that the Wieting opened in 1912 and celebrated it\u0026rsquo;s first centennial in 2012. With considerable luck and the hard work of the Wieting Theatre Guild, Trustees and many volunteers, the Wieting marked this grand milestone with completion of extensive renovations of the theatre.\nAlso worth noting\u0026hellip; the theatre is one of four structures in Toledo (including the Tama County Courthouse, jail and the old Toledo fire station) on the National Register of Historic Places.",
+    "articleSection" : "history",
+    "name" : "Histories",
+    "headline" : "Histories",
+    "description" : "",
     "inLanguage" : "en-US",
     "author" : "",
     "creator" : "",
@@ -37,15 +40,15 @@
     "datePublished": "2021-03-31 07:50:29 -0500 CDT",
     "dateModified" : "2021-03-31 07:50:29 -0500 CDT",
     "url" : "\/history\/",
-    "wordCount" : "154",
+    "wordCount" : "0",
     "keywords" : [ "Blog" ]
 }
 </script>
 
-  <title>History | The Wieting Theatre</title>
+  <title>Histories | The Wieting Theatre</title>
   <style>
 .container {
-  max-width: 1200px;
+  max-width: 1800px;
 }
 #nav a {
   font-weight: bold;
@@ -112,11 +115,17 @@ audio {
 }
 </style>
 
-    
+  <!-- hugo: layouts/partials/netlify-identity-head.html -->
+  
+  
   <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- /hugo: layouts/partials/netlify-identity-head.html -->
 
   
+
 </head>
+
+<!-- /hugo: layouts/partials/head.html -->
 
   <body class="d-flex flex-column h-100">
     
@@ -141,18 +150,27 @@ audio {
       
       
       		<li class="menu__item">
-      			<a class="menu__link" href="/tickets/">
+      			<a class="menu__link" href="/prices/">
       				
-              <span class="menu__text"><i data-feather="dollar-sign"></i> Tickets</span>
+              <span class="menu__text"><i data-feather="dollar-sign"></i> Prices</span>
       				
       			</a>
       		</li>
       
       
       		<li class="menu__item">
-      			<a class="menu__link" href="/concessions/">
+      			<a class="menu__link" href="/donate/">
       				
-              <span class="menu__text"><i data-feather="clipboard"></i> Concessions</span>
+              <span class="menu__text"><i data-feather="gift"></i> Donate!</span>
+      				
+      			</a>
+      		</li>
+      
+      
+      		<li class="menu__item">
+      			<a class="menu__link" href="/calendar/">
+      				
+              <span class="menu__text"><i data-feather="calendar"></i> Calendar</span>
       				
       			</a>
       		</li>
@@ -247,6 +265,14 @@ audio {
       			<ul class="submenu__list">
       				
       					<li class="menu__item">
+      					<a class="menu__link" href="/about/camps/">
+      						
+      						<span class="menu__text">Summer Camps</span>
+      						
+      					</a>
+      					</li>
+      				
+      					<li class="menu__item">
       					<a class="menu__link" href="/about/organization/">
       						
       						<span class="menu__text">Organization</span>
@@ -299,45 +325,83 @@ audio {
       <!-- hugo: main block in layouts/partials/baseof.html -->
       <main id="main">
         
-  <!-- hugo: main block defined in layouts/_default/single.html -->
-  
-  <h1>History</h1>
-  <p>What follows is a very brief telling of the long history of Toledo&rsquo;s Wieting Theatre presented in 8 parts. It&rsquo;s worth noting up front that the Wieting opened in 1912 and celebrated it&rsquo;s first centennial in 2012. With considerable luck and the hard work of the Wieting Theatre Guild, Trustees and many volunteers, the Wieting marked this grand milestone with completion of extensive renovations of the theatre.</p>
-<p>Also worth noting&hellip; the theatre is one of four structures in Toledo (including the Tama County Courthouse, jail and the old Toledo fire station) on the National Register of Historic Places. Did you know there is another Wieting Theatre still in operation? It&rsquo;s true. The community of Worcester, NY, is home to the &ldquo;other&rdquo; Wieting Theatre. Check out their threatre and its history at <a href="http://www.WietingTheatre.com">http://www.WietingTheatre.com</a>.</p>
-<h4 id="stories">Stories</h4>
+
+<h1>Histories</h1>
 
 
+<p>
+  <a class="font-125" href="/history/the-opening/">The Opening</a>
+  <br>
+  
+
+<i data-feather="calendar"></i> <time datetime="2021-03-31">Mar 31, 2021</time>
+
+</p>
+
+<p>
+  <a class="font-125" href="/history/the-wietings/">The Wieting&#39;s</a>
+  <br>
+  
+
+<i data-feather="calendar"></i> <time datetime="2021-03-31">Mar 31, 2021</time>
+
+</p>
+
+<p>
+  <a class="font-125" href="/history/other-contributions/">Other Contributions</a>
+  <br>
+  
+
+<i data-feather="calendar"></i> <time datetime="2021-03-31">Mar 31, 2021</time>
+
+</p>
+
+<p>
+  <a class="font-125" href="/history/brilliant-opening-scene/">Brilliant &#34;Opening Scene&#34;</a>
+  <br>
+  
+
+<i data-feather="calendar"></i> <time datetime="2021-03-31">Mar 31, 2021</time>
+
+</p>
+
+<p>
+  <a class="font-125" href="/history/the-master-director/">The Master Director</a>
+  <br>
+  
+
+<i data-feather="calendar"></i> <time datetime="2021-03-31">Mar 31, 2021</time>
+
+</p>
+
+<p>
+  <a class="font-125" href="/history/the-pace-changes/">The Pace Changes</a>
+  <br>
+  
+
+<i data-feather="calendar"></i> <time datetime="2021-03-31">Mar 31, 2021</time>
+
+</p>
+
+<p>
+  <a class="font-125" href="/history/a-community-project/">A Community Project</a>
+  <br>
+  
+
+<i data-feather="calendar"></i> <time datetime="2021-03-31">Mar 31, 2021</time>
+
+</p>
+
+<p>
+  <a class="font-125" href="/history/a-comeback-story/">A Comeback Story</a>
+  <br>
+  
+
+<i data-feather="calendar"></i> <time datetime="2021-03-31">Mar 31, 2021</time>
+
+</p>
 
 
-
-
-
-  
-<div class="page-submenu">
-  <ul>
-  
-    <li><a href="/history/the-opening/">The Opening</a></li>
-  
-    <li><a href="/history/the-wietings/">The Wieting&#39;s</a></li>
-  
-    <li><a href="/history/other-contributions/">Other Contributions</a></li>
-  
-    <li><a href="/history/brilliant-opening-scene/">Brilliant &#34;Opening Scene&#34;</a></li>
-  
-    <li><a href="/history/the-master-director/">The Master Director</a></li>
-  
-    <li><a href="/history/the-pace-changes/">The Pace Changes</a></li>
-  
-    <li><a href="/history/a-community-project/">A Community Project</a></li>
-  
-    <li><a href="/history/a-comeback-story/">A Comeback Story</a></li>
-  
-  </ul>
-</div>
-
-
-  
-  <!-- /hugo: main block defined in layouts/_default/single.html -->
 
       </main>
       <!-- hugo: main block in layouts/partials/baseof.html -->
@@ -345,62 +409,80 @@ audio {
     <div class="prev-next">
   <div class="prev-item">
     
-      <a class="link-reverse" href="/concessions/?ref=footer">« Concessions</a>
-    
   </div>
 
   <div class="next-item">
     
-      <a class="link-reverse" href="/about/?ref=footer">About »</a>
-    
   </div>
 </div>  
 
-    
-<footer id="footer" class="mt-auto text-center text-muted">
-  <style>
-  div a.netlify-identity-button {
-    width: 6em;
-    display: block;
-    border: 2px solid black;
-    padding: 1px 5px;
-    background: #d3d8c3;
-    margin: auto;
-    text-align: center;
-    border-radius: 4px;
-  }
+    <!-- hugo: layouts/partials/footer.html -->
 
-  a.netlify-identity-button {
-    text-decoration: none !important;
-  }
+
+<footer id="footer" class="mt-auto text-center text-muted">
+  <!-- hugo: layouts/partials/netlify-identity-footer.html -->
+
+<style>
 
   div.footer-container {
     font-size: smaller;
     color: black;
     margin: 3px 5px;
+    text-align: center;
   }
-</style>  
-<div data-netlify-identity-button ></div>
+  
+  .footer-container ul { display:inline-block; padding:0; text-align:center }
+  .footer-container li { display:inline }
+  .footer-container li a { white-space:nowrap }
+  .footer-container li:after { content:" "; letter-spacing:1em; background:center center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=); }
 
-  <div class="footer-container">
-    <div>Updated: Apr 19, 2021 at 7:44am CDT</div>
-    <div>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></div>
-  </div>
+</style>  
+
+<div class="footer-container">
+  <ul>
+    <li class="bulleted-item">Updated: Jun 1, 2021 at 3:52pm CDT</li>
+    <li class="bulleted-item"><span data-netlify-identity-button></span></li>
+    <li class="bulleted-item"><span>Made with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme">Vanilla</a></span></li>
+  </ul>  
+</div>
+
+<!-- /hugo: layouts/partials/netlify-identity-footer.html -->
+
 </footer>
 
 
+<!-- /hugo: layouts/partials/footer.html -->
 
-
-
-
-    <script src="/js/feather.min.js"></script>
+    <!-- hugo: layouts/partials/script.html -->
+<script src="js/feather.min.js"></script>
 <script>
   feather.replace()
 </script>
 
 
-<script src="/js/jquery-3.3.1.slim.min.js"></script>
-<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+<script src='js/moment.min.js'></script>
+<script src='js/jquery.min.js'></script>
+<script src='js/jquery-ui.custom.min.js'></script>
+<script src='js/fullcalendar.min.js'></script>
+
+<script>
+    $(document).ready(function () {
+
+        console.log("Ready...");
+
+        $('#calendar').fullCalendar({
+            events: 'event/index.json'
+        })
+
+    });
+</script>
+
+<!-- /hugo: layouts/partials/script.html -->
 
     
 
@@ -443,4 +525,4 @@ audio {
   </body>
 </html>
 
-<!-- /hugo: layouts/partials/baseof.html -->
+<!-- /hugo: layouts/partials/_default/baseof.html -->
