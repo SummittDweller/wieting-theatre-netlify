@@ -1,3 +1,5 @@
+{{ `<!-- hugo: layouts/partials/netlify-identity-footer.html -->` | safeHTML }}
+
 <style>
 
   div.footer-container {
@@ -21,3 +23,5 @@
     <li class="bulleted-item"><span>{{ .Site.Params.footerText | markdownify }}</span></li>
   </ul>  
 </div>
+
+{{ `<!-- /hugo: layouts/partials/netlify-identity-footer.html -->` | safeHTML }}
